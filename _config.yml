@@ -1,4 +1,5 @@
 future: true
 
 collections:
-  - portfolio
+  portfolio:
+    output: true

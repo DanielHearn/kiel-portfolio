@@ -11,6 +11,16 @@ collections:
     delete: false
     create: false
     files:
+      - label: "Home Page"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: 'default'}
+          - {label: Title, name: title, widget: string}
+          - {label: About Image, name: about_image, widget: image}     
+          - {label: Experience Image, name: experience_image, widget: image}     
+          - {label: Portfolio Image, name: portfolio_image, widget: image}     
+          - {label: Contact Image, name: contact_image, widget: image}     
       - label: "Contact Page"
         name: "contact"
         file: "contact.md"
@@ -45,7 +55,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio-sub"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - label: Portfolio Piece
@@ -53,6 +63,7 @@ collections:
         widget: list
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}   
           - {label: Image, name: image, widget: image}   
       
       #          - label: Team

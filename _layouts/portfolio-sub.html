@@ -6,13 +6,11 @@ layout: default
         <h1>{{ page.title }} </h1>
     </div>
     <div>
-        {% for portfolio_piece in page.portfolio %}
-            {% if portfolio_piece.image %}
-                <img src="{{ portfolio_piece.image }}">
+        {% for piece in page.portfolio_piece %}
+            <p>{{ piece.title }}</p>
+            {% if piece.image %}
+                <img src="{{ piece.image }}">
             {% endif %}
         {% endfor %}
-    </div>
-    <div>
-        <img src="{{ page.image }}" alt="">
     </div>
 </section>
