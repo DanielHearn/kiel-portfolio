@@ -4,42 +4,64 @@
     <meta charset="utf-8">
     <title>Kiel's Portfolio</title>
   </head>
-  <body>
-    <p><!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Kiel's Portfolio</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-  <body>
+  <body> 
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+          <a href="/portfolio">Portfolio</a>
+          <a href="/contact">Contact</a>
+          <a href="/expereience">Experience</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content"><div>
     <h1>Kiel Frampton</h1>
     <h2>Concept Art</h2>
-    <div>
-        
+</div>
+<section class="front-container">
+  <div class="triangle-top">
+    <a href="/about">
+      <p>About</p>
+    </a>
+  </div>
+  <div class="triangle-right">
+    <a href="/experience">
+      <p>Experience</p>
+    </a>
+  </div>
+  <div class="triangle-bottom">
+    <a href="/portfolio">
+      <p>Portfolio</p>
+    </a>
+  </div>
+  <div class="triangle-left">
+      <a href="/contact">
+        <p>Contact</p>
+      </a>
     </div>
+</section>
 
-    <div>
-      
-        <h2>Design Development</h2>
-        
-      
-        <h2>Main Art</h2>
-        
-      
-    </div>
-    <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
+<div>
+  
+    <h2>Design Development</h2>
+    
+  
+    <h2>Main Art</h2>
+    
+  
+</div>
+
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
           });
         }
-      </script>
-  </body>
-</html></p>
+      });
+    }
+</script></div>
   </body>
 </html>

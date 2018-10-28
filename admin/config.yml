@@ -6,6 +6,16 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    files:
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.html"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: contact_text, widget: markdown}
+          - {label: Featured Image, name: image, widget: image}     
   - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolio" # Used in the UI
     folder: "portfolio" # The path to the folder where the documents are stored
@@ -15,3 +25,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
+
+      
+      #          - label: Team
+      #      name: team
+      #      widget: list
+      #      fields:
+      #        - {label: Name, name: name, widget: string}
+      #        - {label: Position, name: position, widget: string}
+      #        - {label: Photo, name: photo, widget: image}
