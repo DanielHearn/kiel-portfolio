@@ -7,9 +7,9 @@ layout: default
     </div>
     <div>
         {% for portfolio_piece in page.portfolio %}
-                {% if portfolio_piece.image %}
-                    <img src="{{ portfolio_piece.image }}">
-                {% endif %}
+            {% if portfolio_piece.image %}
+                <img src="{{ portfolio_piece.image }}">
+            {% endif %}
         {% endfor %}
     </div>
     <div>

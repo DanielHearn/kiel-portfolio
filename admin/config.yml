@@ -48,12 +48,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
-        - label: Portfolio Piece
-          name: portfolio_piece
-          widget: list
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: Image, name: image, widget: image}   
+      - label: Portfolio Piece
+        name: portfolio_piece
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}   
       
       #          - label: Team
       #      name: team
