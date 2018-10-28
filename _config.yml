@@ -3,3 +3,6 @@ future: true
 collections:
   portfolio:
     output: true
+
+sass:
+    sass_dir: css
