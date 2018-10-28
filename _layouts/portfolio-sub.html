@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section>
+    <div>
+        <h1>{{ page.title }} </h1>
+    </div>
+    <div>
+        {% for portfolio_piece in page.portfolio %}
+                {% if portfolio_piece.image %}
+                    <img src="{{ portfolio_piece.image }}">
+                {% endif %}
+        {% endfor %}
+    </div>
+    <div>
+        <img src="{{ page.image }}" alt="">
+    </div>
+</section>

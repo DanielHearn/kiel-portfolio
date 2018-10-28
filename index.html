@@ -28,12 +28,3 @@ title: Kiel's Portfolio
       </a>
     </div>
 </section>
-
-<div>
-  {% for portfolio in site.portfolio %}
-    <h2>{{ portfolio.title }}</h2>
-    {% if portfolio.image %}
-      <img src="{{ portfolio.image }}">
-    {% endif %}
-  {% endfor %}
-</div>

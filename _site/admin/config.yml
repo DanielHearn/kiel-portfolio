@@ -9,6 +9,7 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     delete: false
+    create: false
     files:
       - label: "Contact Page"
         name: "contact"
@@ -18,6 +19,13 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Content, name: contact_text, widget: markdown}
           - {label: Featured Image, name: image, widget: image}     
+      - label: "Portfolio Page"
+        name: "portfolio"
+        file: "portfolio.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: 'portfolio'}
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: image, widget: image}    
       - label: "Experience Page"
         name: "experience"
         file: "experience.md"
@@ -33,14 +41,19 @@ collections:
               - {label: Description, name: description, widget: string}
   - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolio" # Used in the UI
-    folder: "portfolio" # The path to the folder where the documents are stored
+    folder: "_portfolio" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
-
+        - label: Portfolio Piece
+          name: portfolio_piece
+          widget: list
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Image, name: image, widget: image}   
       
       #          - label: Team
       #      name: team
