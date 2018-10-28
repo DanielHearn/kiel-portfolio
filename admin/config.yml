@@ -15,8 +15,9 @@ collections:
         name: "index"
         file: "index.md"
         fields:
-          - {label: Layout, name: layout, widget: hidden, default: 'default'}
+          - {label: Layout, name: layout, widget: hidden, default: 'index'}
           - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
           - {label: About Image, name: about_image, widget: image}     
           - {label: Experience Image, name: experience_image, widget: image}     
           - {label: Portfolio Image, name: portfolio_image, widget: image}     
