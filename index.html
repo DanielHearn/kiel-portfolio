@@ -10,17 +10,26 @@ title: Kiel's Portfolio
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <h1>Kiel</h1>
-    {% if site.posts.size > 0 %}
-      {% for post in site.posts %}
-      <div>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.content }}</p>
-      </div>
-     {% endfor %}
-    {% else %}
-      <p>No blog posts :(</p>
-    {% endif %}
+    <h1>Kiel Frampton</h1>
+    <h2>Concept Art</h2>
+    <div>
+        {% for page in site.posts.pages %}
+        <div>
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          <img src="{{ page.image }}">
+          <p>{{ page.content }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div>
+      {% for portfolio in site.portfolio %}
+        <h2>{{ portfolio.title }}</h2>
+        {% if portfolio.image %}
+          <img src="{{ portfolio.image }}">
+        {% endif %}
+      {% endfor %}
+    </div>
     <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
