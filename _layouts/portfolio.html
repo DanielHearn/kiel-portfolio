@@ -1,23 +1,37 @@
 ---
-layout: default
+layout: base
 ---
-<section>
-    <div>
-        <h1>{{ page.title }} </h1>
+<nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+        <a href="/portfolio" class="active">Portfolio</a>
+        <a href="/contact">Contact</a>
+        <a href="/experience">Experience</a>
+      </li>
+    </ul>
+</nav>
+<section class="main">
+    <div class="column">
+        <div>
+            <h1>{{ page.title }} </h1>
+        </div>
+        <div>
+            {% for portfolio in site.portfolio %}
+                <a href="{{ portfolio.url }}">
+                    <div>
+                        <h2>{{ portfolio.title }}</h2>
+                        {% if portfolio.image %}
+                            <img src="{{ portfolio.image }}">
+                        {% endif %}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
     </div>
-    <div>
-        {% for portfolio in site.portfolio %}
-            <a href="{{ portfolio.url }}">
-                <div>
-                    <h2>{{ portfolio.title }}</h2>
-                    {% if portfolio.image %}
-                        <img src="{{ portfolio.image }}">
-                    {% endif %}
-                </div>
-            </a>
-        {% endfor %}
-    </div>
-    <div>
-        <img src="{{ page.image }}" alt="">
+    <div class="column">
+        <div>
+            <img src="{{ page.image }}" alt="">
+        </div>
     </div>
 </section>

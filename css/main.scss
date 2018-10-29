@@ -2,6 +2,24 @@
 ---
 @charset "utf-8";
 
+$dark: #222;
+$white: #efefef;
+$accent: yellow;
+
+@import 'partials/normalize';
+@import 'partials/nav';
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: $dark;
+    color: $white;
+}
+
 h1 {
     font-weight: bold;
     font-size: 1.2em;
@@ -9,4 +27,29 @@ h1 {
 
 img {
     max-width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em 1em 1em
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    .column {
+        width: 50%;
+    }
+}
+
+.front-container {
+    .front-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .front-section {
+            width: 50%;
+        }
+    }
 }
