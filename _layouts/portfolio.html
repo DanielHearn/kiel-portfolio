@@ -1,5 +1,6 @@
 ---
 layout: base
+artstation_link: http://www.artstation.com
 ---
 <nav>
     <ul>
@@ -13,20 +14,24 @@ layout: base
 </nav>
 <section class="main">
     <div class="column">
-        <div>
-            <h1>{{ page.title }} </h1>
+        <div class="column-content">
+            <div class="portfolio-grid">
+                {% for portfolio in site.portfolio %}
+                    <a class="portfolio-item" href="{{ portfolio.url }}">
+                        <div class="portfolio-image">
+                            {% if portfolio.image %}
+                                <img src="{{ portfolio.image }}">
+                            {% endif %}
+                        </div>
+                        <div class="portfolio-title">
+                            <p>{{ portfolio.title }}</p>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
         </div>
-        <div>
-            {% for portfolio in site.portfolio %}
-                <a href="{{ portfolio.url }}">
-                    <div>
-                        <h2>{{ portfolio.title }}</h2>
-                        {% if portfolio.image %}
-                            <img src="{{ portfolio.image }}">
-                        {% endif %}
-                    </div>
-                </a>
-            {% endfor %}
+        <div class="column-footer">
+            <a class="link-large" href="{{ page.artstation_link }}">More on artstation</a>
         </div>
     </div>
     <div class="column">

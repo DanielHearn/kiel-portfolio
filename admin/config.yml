@@ -36,6 +36,7 @@ collections:
         fields:
           - {label: Layout, name: layout, widget: hidden, default: 'portfolio'}
           - {label: Title, name: title, widget: string}
+          - {label: Artstation Link, name: artstation_link, widget: string}
           - {label: Featured Image, name: image, widget: image}    
       - label: "Experience Page"
         name: "experience"

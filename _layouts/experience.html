@@ -13,10 +13,10 @@ layout: base
 </nav>
 <section class="main">
     <div class="column">
-        <div>
+        <div class="header">
             <h1>{{ page.title }} </h1>
         </div>
-        <div>
+        <div class="column-content">
             {% for project in page.projects %}
                 <p>{{ project.title }}</p>
                 <p>{{ project.description }}</p>

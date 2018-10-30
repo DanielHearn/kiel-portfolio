@@ -1,7 +1,17 @@
 ---
-layout: default
+layout: base
 ---
-<section>
+<nav>
+    <ul>
+        <li>
+        <a href="/">Home</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/contact">Contact</a>
+        <a href="/experience" class="active">Experience</a>
+        </li>
+    </ul>
+</nav>
+<section class="main">
     <div>
         <h1>{{ page.title }} </h1>
     </div>
@@ -13,4 +23,4 @@ layout: default
             {% endif %}
         {% endfor %}
     </div>
-</section>
+<section>
