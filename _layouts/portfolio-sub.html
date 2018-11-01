@@ -12,15 +12,14 @@ layout: base
     </ul>
 </nav>
 <section class="main">
-    <div>
-        <h1>{{ page.title }} </h1>
-    </div>
-    <div>
+    <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <p>{{ piece.title }}</p>
-            {% if piece.image %}
-                <img src="{{ piece.image }}">
-            {% endif %}
+            <div class="subportfolio-item">
+                <p>{{ piece.title }}</p>
+                {% if piece.image %}
+                    <img src="{{ piece.image }}">
+                {% endif %}
+            </div>
         {% endfor %}
     </div>
 <section>
