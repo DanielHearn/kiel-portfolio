@@ -1,8 +1,7 @@
 ---
 title: Projects
-project:
-  - title: Project 1
-    image: /images/uploads/bike.jpg
-    description: Description
+portfolio_piece:
+  - description: Desc 1
+    title: Project 1
 ---
 
