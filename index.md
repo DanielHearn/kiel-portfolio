@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Kiel's Portfolio
+title: Kiel Frampton
 heading: Concept Art
 about_image: /images/uploads/bike.jpg
 experience_image: /images/uploads/Talovka_3.jpg
