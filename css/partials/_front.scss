@@ -1,9 +1,14 @@
 .front-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: $max-width;
     .front-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: $letter-spacing*8;
@@ -22,30 +27,79 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        position: relative;
+        width: 70%;
+        margin-top: 4em;
         .front-section {
             width: 50%;
             text-align: center;
             text-transform: uppercase;
             letter-spacing: $letter-spacing*2;
+            position: absolute;
+            width: 100%;
+            background: $grey;
+            transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            user-select: none;
+            cursor: pointer;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            p {
+                z-index: 10;
+                position: absolute;
+                font-size: $subheading-size;
+                font-weight: $subheading-weight;
+            }
             img {
-                filter: contrast(80%) brightness(60%);
+                filter: contrast(80%) brightness(70%);
+            }
+            &:hover {
+                z-index: 5;
+                -webkit-clip-path: none;
+                clip-path: none;
+                &.triangle-top p {
+                    margin-top: -32%;
+                }
+                &.triangle-bottom p {
+                    margin-top: 32%;
+                }
+                &.triangle-left p {
+                    margin: 0 0 0 -55%;
+                }
+                &.triangle-right p {
+                    margin: 0 0 0 55%;
+                }
             }
         }
-        .triangle-top img {
-            -webkit-clip-path: polygon(50% 50%, 0% 0, 100% 0);
-            clip-path: polygon(50% 50%, 0% 0, 100% 0);
+        .triangle-top {
+            -webkit-clip-path: polygon(50% 45%, 5% 0, 95% 0);
+            clip-path: polygon(50% 45%, 5% 0, 95% 0);
+            p {
+                margin-top: -15%;
+            }
         }
-        .triangle-bottom img {
-            -webkit-clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
-            clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+        .triangle-bottom {
+            -webkit-clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
+            clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
+            p {
+                margin-top: 15%;
+            }
         }
-        .triangle-left img {
-            -webkit-clip-path: polygon(50% 50%, 0 0, 0 100%);
-            clip-path: polygon(50% 50%, 0 0, 0 100%);
+        .triangle-left {
+            -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
+            clip-path: polygon(45% 50%, 0 5%, 0 95%);
+            p {
+                margin: 0 0 0 -25%;
+            }
         }
-        .triangle-right img {
-            -webkit-clip-path: polygon(50% 50%, 100% 0%, 100% 100%);
-            clip-path: polygon(50% 50%, 100% 0%, 100% 100%);
+        .triangle-right {
+            -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
+            clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
+            p {
+                margin: 0 0 0 25%;
+            }
         }
     }
 }

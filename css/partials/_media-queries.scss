@@ -10,6 +10,12 @@
                 flex-direction: column;
                 .front-section {
                     width: 100%;
+                    clip-path: none;
+                    -webkit-clip-path: none;
+                    position: initial;
+                    p {
+                        margin: 0;
+                    }
                 }
             }
         }
