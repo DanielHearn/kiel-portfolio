@@ -2,6 +2,8 @@ nav {
     background: $dark;
     //position: fixed;
     //width: 100vw;
+    position: sticky;
+    top: 0;
     ul {
         display: flex;
         flex-direction: row;
