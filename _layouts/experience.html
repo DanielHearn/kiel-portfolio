@@ -27,7 +27,7 @@ layout: base
                 {% for project in page.projects %}
                 <li class="project">
                     {% if project.logo %}
-                        <img src="{{ page.logo }}">
+                        <img class="project-logo" src="{{ project.logo }}">
                     {% endif %}
                         <p>{{ project.title }}</p>
                         <p>{{ project.description }}</p>
