@@ -17,6 +17,7 @@
             font-weight: $title-weight;
             padding-bottom: 0.5em;
             border-bottom: 0.1em $white solid;
+            margin-bottom: 0;
         }
         h2 {
             font-size: $subtitle-size;
@@ -45,15 +46,17 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
             }
             p {
                 z-index: 10;
                 position: absolute;
                 font-size: $subheading-size;
                 font-weight: $subheading-weight;
+                margin: 0;
             }
             img {
-                filter: contrast(80%) brightness(70%);
+                filter: contrast(80%) brightness(80%);
             }
         }
     }

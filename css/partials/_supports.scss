@@ -1,51 +1,53 @@
 @supports not(-ms-ime-align: auto) {
-    .front-container {
-        .front-menu {
-            .front-section {
-                &:hover {
-                    z-index: 5;
-                    -webkit-clip-path: none;
-                    clip-path: none;
-                    &.triangle-top p {
-                        margin-top: -32%;
-                    }
-                    &.triangle-bottom p {
-                        margin-top: 32%;
-                    }
-                    &.triangle-left p {
-                        margin: 0 0 0 -55%;
-                    }
-                    &.triangle-right p {
-                        margin: 0 0 0 55%;
+    @media screen and (min-width: 58em) {
+        .front-container {
+            .front-menu {
+                .front-section {
+                    &:hover {
+                        z-index: 5;
+                        -webkit-clip-path: none;
+                        clip-path: none;
+                        &.triangle-top p {
+                            top: -10%;
+                        }
+                        &.triangle-bottom p {
+                            bottom: -10%;
+                        }
+                        &.triangle-left p {
+                            left: -16%;
+                        }
+                        &.triangle-right p {
+                            right: -20%;
+                        }
                     }
                 }
-            }
-            .triangle-top {
-                -webkit-clip-path: polygon(50% 45%, 5% 0, 95% 0);
-                clip-path: polygon(50% 45%, 5% 0, 95% 0);
-                p {
-                    margin-top: -15%;
+                .triangle-top {
+                    -webkit-clip-path: polygon(50% 45%, 5% 0, 95% 0);
+                    clip-path: polygon(50% 45%, 5% 0, 95% 0);
+                    p {
+                        top: 15%;
+                    }
                 }
-            }
-            .triangle-bottom {
-                -webkit-clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
-                clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
-                p {
-                    margin-top: 15%;
+                .triangle-bottom {
+                    -webkit-clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
+                    clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
+                    p {
+                        bottom: 15%;
+                    }
                 }
-            }
-            .triangle-left {
-                -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
-                clip-path: polygon(45% 50%, 0 5%, 0 95%);
-                p {
-                    margin: 0 0 0 -25%;
+                .triangle-left {
+                    -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
+                    clip-path: polygon(45% 50%, 0 5%, 0 95%);
+                    p {
+                        left: 10%;
+                    }
                 }
-            }
-            .triangle-right {
-                -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
-                clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
-                p {
-                    margin: 0 0 0 25%;
+                .triangle-right {
+                    -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
+                    clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
+                    p {
+                        right: 10%;
+                    }
                 }
             }
         }
