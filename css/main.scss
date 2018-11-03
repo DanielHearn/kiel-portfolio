@@ -25,6 +25,8 @@ $transition-time-slow: 0.2s;
 
 $max-width: 100em;
 
+$mobile-break-width: 70em;
+
 @import 'partials/normalize';
 @import 'partials/nav';
 @import 'partials/media-queries';

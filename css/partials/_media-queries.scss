@@ -1,4 +1,4 @@
-@media screen and (max-width: 60em) { 
+@media screen and (max-width: $mobile-break-width) { 
     body {
         .content {
             nav ul {
@@ -6,6 +6,18 @@
             }
             .main {
                 flex-direction: column;
+            }
+            .experience-list {
+                .project {
+                    flex-direction: column;
+                    .project-logo {
+                        width: 100%;
+                        height: initial;
+                    }
+                }
+            }
+            .subportfolio-grid {
+                grid-template-columns: repeat(1, 1fr);
             }
         }
         .front-container {
@@ -21,7 +33,7 @@
                     clip-path: none;
                     -webkit-clip-path: none;
                     position: initial;
-                    p {
+                    .section-name {
                         margin: 0;
                     }
                 }
@@ -30,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 70em) { 
+@media screen and (max-width: $mobile-break-width) { 
     body {
         .main {
             flex-direction: column;

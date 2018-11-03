@@ -68,9 +68,9 @@
 }
 
 .subportfolio-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
     .subportfolio-item {
         flex: 1;   
     }   

@@ -58,7 +58,7 @@
                 align-items: center;
                 position: relative;
             }
-            p {
+            .section-name {
                 z-index: 10;
                 position: absolute;
                 font-size: $subheading-size;
@@ -69,6 +69,15 @@
                 filter: contrast(80%) brightness(80%);
                 transition: filter $transition-time-slow ease-in-out;
             }
+        }
+        .about-box {
+            position: absolute;
+            display: flex;
+            width: 80%;
+            height: 80%;
+            background: $grey;
+            z-index: 10;
+            display: none;
         }
     }
 }

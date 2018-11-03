@@ -1,5 +1,5 @@
 @supports not(-ms-ime-align: auto) {
-    @media screen and (min-width: 60em) {
+    @media screen and (min-width: $mobile-break-width) {
         .front-container {
             .front-menu {
                 .front-section {
@@ -10,45 +10,48 @@
                         img {
                             filter: contrast(100%) brightness(100%);
                         }
-                        &.triangle-top p {
+                        &.triangle-top .section-name {
                             display: none;
                         }
-                        &.triangle-bottom p {
+                        &.triangle-bottom .section-name {
                             bottom: -10%;
                         }
-                        &.triangle-left p {
+                        &.triangle-left .section-name {
                             left: -16%;
                         }
-                        &.triangle-right p {
+                        &.triangle-right .section-name {
                             right: -20%;
+                        }
+                        .about-box {
+                            display: block;
                         }
                     }
                 }
                 .triangle-top {
                     -webkit-clip-path: polygon(50% 45%, 5% 0, 95% 0);
                     clip-path: polygon(50% 45%, 5% 0, 95% 0);
-                    p {
+                    .section-name {
                         top: 15%;
                     }
                 }
                 .triangle-bottom {
                     -webkit-clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
                     clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
-                    p {
+                    .section-name {
                         bottom: 15%;
                     }
                 }
                 .triangle-left {
                     -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
                     clip-path: polygon(45% 50%, 0 5%, 0 95%);
-                    p {
+                    .section-name {
                         left: 10%;
                     }
                 }
                 .triangle-right {
                     -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
                     clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
-                    p {
+                    .section-name {
                         right: 10%;
                     }
                 }
@@ -65,7 +68,7 @@
                 .front-section {
                     width: 100%;
                     position: relative;
-                    p {
+                    .section-name {
                         margin: 0;
                     }
                 }
