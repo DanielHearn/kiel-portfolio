@@ -3,12 +3,18 @@ layout: base
 ---
 <nav>
     <ul>
-      <li>
-        <a href="/">Home</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/contact">Contact</a>
-        <a href="/experience" class="active">Experience</a>
-      </li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="/experience" class="active">Experience</a>
+        </li>
     </ul>
 </nav>
 <section class="main">
@@ -17,10 +23,17 @@ layout: base
             <h1>{{ page.title }} </h1>
         </div>
         <div class="column-content">
-            {% for project in page.projects %}
-                <p>{{ project.title }}</p>
-                <p>{{ project.description }}</p>
-            {% endfor %}
+            <ul class="experience-list">
+                {% for project in page.projects %}
+                <li class="project">
+                    {% if project.logo %}
+                        <img src="{{ page.logo }}">
+                    {% endif %}
+                        <p>{{ project.title }}</p>
+                        <p>{{ project.description }}</p>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
     <div class="column">

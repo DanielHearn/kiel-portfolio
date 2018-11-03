@@ -1,5 +1,5 @@
 @supports not(-ms-ime-align: auto) {
-    @media screen and (min-width: 58em) {
+    @media screen and (min-width: 60em) {
         .front-container {
             .front-menu {
                 .front-section {
@@ -11,7 +11,7 @@
                             filter: contrast(100%) brightness(100%);
                         }
                         &.triangle-top p {
-                            top: -10%;
+                            display: none;
                         }
                         &.triangle-bottom p {
                             bottom: -10%;

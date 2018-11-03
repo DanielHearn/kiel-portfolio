@@ -6,30 +6,32 @@ layout: default
         <h1>{{ page.page_title }}</h1>
         <h2>{{ page.heading }}</h2>
     </div>
-    <section class="front-menu">
-        <div class="front-section triangle-top">
-            <a>
-                <p>About</p>
-                <img src="{{ page.about_image }}" alt="">
-            </a>
-        </div>
-        <div class="front-section triangle-right">
-            <a href="/experience">
-                <p>Experience</p>
-                <img src="{{ page.experience_image }}" alt="">
-            </a>
-        </div>
-        <div class="front-section triangle-bottom">
-            <a href="/portfolio">
-                <p>Portfolio</p>
-                <img src="{{ page.portfolio_image }}" alt="">
-            </a>
-        </div>
-        <div class="front-section triangle-left">
-            <a href="/contact">
-                <p>Contact</p>
-                <img src="{{ page.contact_image }}" alt="">
-            </a>
-        </div>
-    </section>
+    <div class="front-menu-container">
+        <section class="front-menu">
+            <div class="front-section triangle-top">
+                <a>
+                    <p>About</p>
+                    <img src="{{ page.about_image }}" alt="">
+                </a>
+            </div>
+            <div class="front-section triangle-right">
+                <a href="/experience">
+                    <p>Experience</p>
+                    <img src="{{ page.experience_image }}" alt="">
+                </a>
+            </div>
+            <div class="front-section triangle-bottom">
+                <a href="/portfolio">
+                    <p>Portfolio</p>
+                    <img src="{{ page.portfolio_image }}" alt="">
+                </a>
+            </div>
+            <div class="front-section triangle-left">
+                <a href="/contact">
+                    <p>Contact</p>
+                    <img src="{{ page.contact_image }}" alt="">
+                </a>
+            </div>
+        </section>
+    </div>
 </div>

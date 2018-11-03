@@ -1,6 +1,9 @@
-@media screen and (max-width: 58em) { 
+@media screen and (max-width: 60em) { 
     body {
         .content {
+            nav ul {
+                flex-direction: column;
+            }
             .main {
                 flex-direction: column;
             }
@@ -21,6 +24,20 @@
                     p {
                         margin: 0;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 70em) { 
+    body {
+        .main {
+            flex-direction: column;
+            .portfolio-grid {
+                flex-direction: column;
+                .portfolio-item {
+                    width: initial;
                 }
             }
         }

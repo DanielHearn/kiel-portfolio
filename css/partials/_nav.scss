@@ -21,6 +21,8 @@ nav {
                 text-decoration: none;
                 letter-spacing: $letter-spacing;
                 transition: color $transition-time-quick ease-in-out;
+                font-size: $p-size;
+                font-weight: $p-weight;
                 &.active {
                     color: $accent;
                 }

@@ -9,7 +9,7 @@
     display: flex;
     flex: 1 auto;
     flex-direction: row;
-    padding: 2em 1em 1em 1em;
+    padding: 1em;
     .column {
         display: flex;
         flex: 1;
@@ -28,7 +28,7 @@
             }
         }
         .column-content {
-            padding: 1em;
+            padding: 1em 0;
         }
         .column-footer {
             display: flex;
@@ -55,7 +55,10 @@
         margin: 1em;
         background: $grey;
         .portfolio-image {
-
+            height: 25vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
         }
         .portfolio-title {
             text-align: center;
@@ -71,4 +74,24 @@
     .subportfolio-item {
         flex: 1;   
     }   
+}
+
+.experience-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    .project {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        margin-bottom: 1em;
+        background: $grey;
+        p {
+            margin: 0.5em 1em;
+        }
+        .project-logo {
+            max-width: 5em;
+        }
+    }
 }
