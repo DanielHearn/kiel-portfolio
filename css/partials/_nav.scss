@@ -20,7 +20,7 @@ nav {
                 color: $white;
                 text-decoration: none;
                 letter-spacing: $letter-spacing;
-                transition: color $transition-time ease-in-out;
+                transition: color $transition-time-quick ease-in-out;
                 &.active {
                     color: $accent;
                 }

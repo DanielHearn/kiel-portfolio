@@ -3,7 +3,7 @@
 @charset "utf-8";
 
 $dark: #1e2124;
-$grey: #34373a;
+$grey: #2b2f33;
 $white: #efefef;
 $accent-dark: #c0a54d;
 $accent: #ddba46;
@@ -20,7 +20,8 @@ $p-size: 1.1em;
 $p-weight: 400;
 
 $letter-spacing: 0.15em;
-$transition-time: 0.1s;
+$transition-time-quick: 0.1s;
+$transition-time-slow: 0.2s;
 
 $max-width: 100em;
 

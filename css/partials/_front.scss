@@ -57,6 +57,7 @@
             }
             img {
                 filter: contrast(80%) brightness(80%);
+                transition: filter $transition-time-slow ease-in-out;
             }
         }
     }

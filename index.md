@@ -1,6 +1,7 @@
 ---
 layout: index
-title: Kiel Frampton
+title: Home
+page_title: Kiel Frampton
 heading: Concept Art
 about_image: /images/uploads/bike.jpg
 experience_image: /images/uploads/Talovka_3.jpg
