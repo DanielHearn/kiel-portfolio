@@ -20,6 +20,7 @@ collections:
           - {label: Title, name: page_title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: About Image, name: about_image, widget: image}     
+          - {label: About Text, name: about_text, widget: string}
           - {label: Experience Image, name: experience_image, widget: image}     
           - {label: Portfolio Image, name: portfolio_image, widget: image}     
           - {label: Contact Image, name: contact_image, widget: image}     

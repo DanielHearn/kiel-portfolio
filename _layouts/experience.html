@@ -29,15 +29,15 @@ layout: base
                     {% if project.logo %}
                         <img class="project-logo" src="{{ project.logo }}">
                     {% endif %}
-                        <p>{{ project.title }}</p>
-                        <p>{{ project.description }}</p>
+                        <p class="project-title">{{ project.title }}</p>
+                        <p class="project-desc">{{ project.description }}</p>
                 </li>
                 {% endfor %}
             </ul>
         </div>
     </div>
     <div class="column">
-        <div>
+        <div class="main-image">
             <img src="{{ page.image }}" alt="">
         </div>
     </div>

@@ -1,23 +1,23 @@
 @media screen and (max-width: $mobile-break-width) { 
     body {
         .content {
-            nav ul {
-                flex-direction: column;
-            }
             .main {
                 flex-direction: column;
-            }
-            .experience-list {
-                .project {
-                    flex-direction: column;
-                    .project-logo {
-                        width: 100%;
-                        height: initial;
+                .column {
+                    padding: 0;
+                }
+                .experience-list {
+                    .project {
+                        flex-direction: column;
+                        .project-logo {
+                            width: 100%;
+                            height: initial;
+                        }
                     }
                 }
-            }
-            .subportfolio-grid {
-                grid-template-columns: repeat(1, 1fr);
+                .subportfolio-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
             }
         }
         .front-container {
@@ -28,6 +28,7 @@
                 flex-direction: column;
                 width: 100%;
                 padding: 1em;
+                margin-top: 1em;
                 .front-section {
                     width: 100%;
                     clip-path: none;
@@ -35,7 +36,23 @@
                     position: initial;
                     .section-name {
                         margin: 0;
+                        letter-spacing: 0;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile-break-width/2) { 
+    body {
+        .content {
+            nav ul {
+                flex-direction: column;
+            }
+            .main {
+                .subportfolio-grid {
+                    grid-template-columns: repeat(1, 1fr);
                 }
             }
         }

@@ -15,11 +15,18 @@
         flex: 1;
         flex-direction: column;
         padding: 1em;
+        .main-image {
+            top: 2em;
+            position: -webkit-sticky;
+            position: sticky;
+        }
         .header {
             padding: 1em;
             background: $grey;
             text-align: center;
             h1 {
+                font-size: $heading-size;
+                font-weight: $heading-weight;
                 letter-spacing: $letter-spacing*2;
                 text-transform: uppercase;
                 margin: 0.25em 0;
@@ -103,6 +110,13 @@
         }
         .project-logo {
             height: 5em;
+        }
+        .project-title {
+            letter-spacing: $letter-spacing;
+            text-transform: uppercase;
+        }
+        .project-desc {
+            text-transform: uppercase;
         }
     }
 }
