@@ -1,5 +1,5 @@
 $triangle-outer-edge: calc(100% - 2em);
-$triangle-inner-edge: calc(0% + 2em);
+$triangle-inner-edge: calc(1% - 1% + 2em);
 
 @supports not(-ms-ime-align: auto) {
     @media screen and (min-width: $mobile-break-width) {
