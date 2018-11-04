@@ -49,6 +49,9 @@
             width: 100%;
             background: $grey;
             transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
             user-select: none;
             cursor: pointer;
             a {
