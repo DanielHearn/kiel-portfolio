@@ -1,3 +1,6 @@
+$triangle-outer-edge: calc(100% - 2em);
+$triangle-inner-edge: calc(0% + 2em);
+
 @supports not(-ms-ime-align: auto) {
     @media screen and (min-width: $mobile-break-width) {
         .front-container {
@@ -5,22 +8,38 @@
                 .front-section {
                     &:hover {
                         z-index: 5;
-                        -webkit-clip-path: none;
-                        clip-path: none;
+                        -webkit-clip-path:polygon(5% 0, 95% 0, 95% 95%, 5% 95%);
+                        clip-path: polygon(5% 0, 95% 0, 95% 95%, 5% 95%);
                         img {
                             filter: contrast(100%) brightness(100%);
                         }
-                        &.triangle-top .section-name {
-                            display: none;
+                        &.triangle-top {
+                            -webkit-clip-path: polygon($triangle-inner-edge 0, $triangle-outer-edge 0, $triangle-outer-edge calc(92% - 2em), $triangle-inner-edge calc(92% - 2em));
+                            clip-path: polygon($triangle-inner-edge 0, $triangle-outer-edge 0, $triangle-outer-edge calc(92% - 2em), $triangle-inner-edge calc(92% - 2em));
+                            .section-name {
+                                display: none;
+                            }
                         }
-                        &.triangle-bottom .section-name {
-                            bottom: -10%;
+                        &.triangle-bottom {
+                            -webkit-clip-path: polygon($triangle-inner-edge calc(6% + 2em), $triangle-outer-edge calc(6% + 2em), $triangle-outer-edge 200%, $triangle-inner-edge 200%);
+                            clip-path: polygon($triangle-inner-edge calc(6% + 2em), $triangle-outer-edge calc(6% + 2em), $triangle-outer-edge 200%, $triangle-inner-edge 200%);
+                            .section-name {
+                                bottom: -3em;
+                            }
                         }
-                        &.triangle-left .section-name {
-                            left: -16%;
+                        &.triangle-left {
+                            -webkit-clip-path: polygon(-100% $triangle-inner-edge, $triangle-outer-edge $triangle-inner-edge, $triangle-outer-edge $triangle-outer-edge, -100% $triangle-outer-edge);
+                            clip-path: polygon(-100% $triangle-inner-edge, $triangle-outer-edge $triangle-inner-edge, $triangle-outer-edge $triangle-outer-edge, -100% $triangle-outer-edge);
+                            .section-name {
+                                left: -8em;
+                            }
                         }
-                        &.triangle-right .section-name {
-                            right: -20%;
+                        &.triangle-right {
+                            -webkit-clip-path: polygon($triangle-inner-edge $triangle-inner-edge, 200% $triangle-inner-edge, 200% $triangle-outer-edge, $triangle-inner-edge $triangle-outer-edge);
+                            clip-path: polygon($triangle-inner-edge $triangle-inner-edge, 200% $triangle-inner-edge, 200% $triangle-outer-edge, $triangle-inner-edge $triangle-outer-edge);
+                            .section-name {
+                                right: -10em;
+                            }
                         }
                         .about-box {
                             display: block;
@@ -28,15 +47,22 @@
                     }
                 }
                 .triangle-top {
-                    -webkit-clip-path: polygon(50% 45%, 5% 0, 95% 0);
-                    clip-path: polygon(50% 45%, 5% 0, 95% 0);
+                    -webkit-clip-path: polygon(50% 40%, 5% 0, 95% 0);
+                    clip-path: polygon(50% 40%, 5% 0, 95% 0);
+                    a {
+                        border-top: solid 2em $grey;
+                    }
                     .section-name {
                         top: 15%;
                     }
                 }
                 .triangle-bottom {
-                    -webkit-clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
-                    clip-path: polygon(50% 55%, 5% 100%, 95% 100%);
+                    top: -3em;
+                    -webkit-clip-path: polygon(50% 60%,5% 100%,95% 100%);
+                    clip-path: polygon(50% 60%,5% 100%,95% 100%);
+                    a {
+                        border-bottom: solid 2em $grey;
+                    }
                     .section-name {
                         bottom: 15%;
                     }
@@ -44,6 +70,9 @@
                 .triangle-left {
                     -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
                     clip-path: polygon(45% 50%, 0 5%, 0 95%);
+                    a {
+                        border-left: solid 2em $grey;
+                    }
                     .section-name {
                         left: 10%;
                     }
@@ -51,6 +80,9 @@
                 .triangle-right {
                     -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
                     clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
+                    a {
+                        border-right: solid 2em $grey;
+                    }
                     .section-name {
                         right: 10%;
                     }
