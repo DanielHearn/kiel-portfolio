@@ -21,11 +21,11 @@ layout: base
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
             <div class="subportfolio-item">
-                <p>{{ piece.title }}</p>
                 {% if piece.image %}
                     <img src="{{ piece.image }}">
                 {% endif %}
             </div>
         {% endfor %}
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <section>

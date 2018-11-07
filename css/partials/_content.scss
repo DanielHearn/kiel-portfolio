@@ -49,7 +49,7 @@
     text-align: center;
     color: $white;
     text-transform: uppercase;
-    background: $grey;
+    background: $light-grey;
     padding: 1em 2em;
 }
 
@@ -57,19 +57,35 @@
     display: flex;
     flex-direction: row;
     .portfolio-item {
+        display: block;
         flex: 1 auto;
         width: 50%;
         margin: 1em;
         background: $grey;
-        .portfolio-image {
-            height: 25vh;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-        }
-        .portfolio-title {
-            text-align: center;
-            text-transform: uppercase;
+        padding: 0.5em 0 0 0.5em;
+        -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+        .portfolio-content {
+            padding: 1em;
+            background: $light-grey;
+            -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+        
+            .portfolio-image {
+                height: 25vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+            }
+            .portfolio-title {
+                text-align: center;
+                text-transform: uppercase;
+                p {
+                    margin: 0.75em 0 0 0;
+                }
+            }
         }
     }
 }
@@ -105,18 +121,21 @@
         padding: 1em;
         margin-bottom: 1em;
         background: $grey;
-        p {
-            margin: 0.5em 1em;
-        }
         .project-logo {
-            height: 5em;
+            width: 10em;
+        }
+        p {
+            margin: 0;
         }
         .project-title {
             letter-spacing: $letter-spacing;
             text-transform: uppercase;
+            padding: 0.25em 0.5em;
         }
         .project-desc {
             text-transform: uppercase;
+            background: $light-grey;
+            padding: 0.25em 0.5em;
         }
     }
 }

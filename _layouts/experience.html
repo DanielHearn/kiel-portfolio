@@ -26,11 +26,13 @@ layout: base
             <ul class="experience-list">
                 {% for project in page.projects %}
                 <li class="project">
-                    {% if project.logo %}
-                        <img class="project-logo" src="{{ project.logo }}">
-                    {% endif %}
-                        <p class="project-title">{{ project.title }}</p>
-                        <p class="project-desc">{{ project.description }}</p>
+                    <div class="project-logo">
+                        {% if project.logo %}
+                            <img src="{{ project.logo }}">
+                        {% endif %}
+                    </div>
+                    <p class="project-title">{{ project.title }}</p>
+                    <p class="project-desc">{{ project.description }}</p>
                 </li>
                 {% endfor %}
             </ul>
