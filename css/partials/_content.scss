@@ -1,27 +1,39 @@
+$portfolio-item-clip-path: polygon(0% $content-padding-large, $content-padding-large 0%, 100% 0, 100% 100%, 0 100%);
+$portfolio-content-clip-path: polygon(0% $content-padding-large, $content-padding-large 0%, 100% 0, 100% 100%, 0 100%);
+$portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 100% 0, 100% 100%, 0 100%);
+$box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-grey;
+
 .content {
     display: flex;
     flex: 1 auto;
     flex-direction: column;
+    width: 100%;
     max-width: $max-width;
+}
+
+.box-shadow {
+    -webkit-box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    box-shadow: $box-shadow;
 }
 
 .main {
     display: flex;
     flex: 1 auto;
     flex-direction: row;
-    padding: 1em;
+    padding: $content-padding;
     .column {
         display: flex;
         flex: 1;
         flex-direction: column;
-        padding: 1em;
+        padding: $content-padding;
         .main-image {
-            top: 2em;
+            top: $content-padding-large;
             position: -webkit-sticky;
             position: sticky;
         }
         .header {
-            padding: 1em;
+            padding: $content-padding;
             background: $grey;
             text-align: center;
             h1 {
@@ -35,12 +47,13 @@
             }
         }
         .column-content {
-            padding: 1em 0;
+            padding: $content-padding 0;
         }
         .column-footer {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: $content-padding;
         }
     }
 }
@@ -49,8 +62,12 @@
     text-align: center;
     color: $white;
     text-transform: uppercase;
-    background: $light-grey;
-    padding: 1em 2em;
+    background: $grey;
+    padding: $content-padding $content-padding-large;
+    transition: box-shadow $transition-time-slow ease-in-out;
+    &.box-shadow:hover  {
+        box-shadow: none;
+    }
 }
 
 .portfolio-grid {
@@ -60,24 +77,23 @@
         display: block;
         flex: 1 auto;
         width: 50%;
-        margin: 1em;
-        background: $grey;
+        margin: $content-padding;
+        background: $light-grey;
         padding: 0.5em 0 0 0.5em;
-        -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+        -webkit-clip-path: $portfolio-item-clip-path;
+        clip-path: $portfolio-item-clip-path;
         .portfolio-content {
-            padding: 1em;
-            background: $light-grey;
-            -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
-        
+            background: $grey;
+            padding: $content-padding;
+            -webkit-clip-path: $portfolio-content-clip-path;
+            clip-path: $portfolio-content-clip-path;
             .portfolio-image {
                 height: 25vh;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: 50% 50%;
-                -webkit-clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
-                clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% 100%, 0 100%);
+                -webkit-clip-path: $portfolio-image-clip-path;
+                clip-path: $portfolio-image-clip-path;
             }
             .portfolio-title {
                 text-align: center;
@@ -93,7 +109,7 @@
 .subportfolio-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    grid-gap: $content-padding;
     .subportfolio-item {
         flex: 1;   
         overflow: hidden;
@@ -118,9 +134,10 @@
     .project {
         display: flex;
         flex-direction: row;
-        padding: 1em;
-        margin-bottom: 1em;
+        padding: $content-padding;
+        margin-bottom: $content-padding;
         background: $grey;
+        min-height: 6em;
         .project-logo {
             width: 10em;
         }
@@ -130,12 +147,13 @@
         .project-title {
             letter-spacing: $letter-spacing;
             text-transform: uppercase;
-            padding: 0.25em 0.5em;
+            padding: $content-padding-small $content-padding;
         }
         .project-desc {
             text-transform: uppercase;
             background: $light-grey;
-            padding: 0.25em 0.5em;
+            padding: $content-padding-small $content-padding;
+            flex: 1;
         }
     }
 }

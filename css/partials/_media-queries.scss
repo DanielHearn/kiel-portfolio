@@ -69,6 +69,16 @@
                     width: initial;
                 }
             }
+            .experience-list {
+                .project {
+                    .project-title {
+                        padding: 1em;
+                    }
+                    .project-desc {
+                        padding: 1em;
+                    }
+                }
+            }
         }
     }
 }

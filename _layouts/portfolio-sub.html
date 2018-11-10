@@ -20,12 +20,13 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <div class="subportfolio-item">
+            <a class="subportfolio-item box-shadow" href="{{ piece.image }}">
                 {% if piece.image %}
                     <img src="{{ piece.image }}">
                 {% endif %}
-            </div>
+            </a>
         {% endfor %}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>baguetteBox.run('.subportfolio-grid');</script>
 <section>

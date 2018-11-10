@@ -3,8 +3,8 @@
 @charset "utf-8";
 
 $dark: #1e2124;
-$grey: #2b2f33;
-$light-grey: #3d3d3d;
+$grey: #37383a;
+$light-grey: #2b2f33;
 $white: #efefef;
 $accent-dark: #c0a54d;
 $accent: #ddba46;
@@ -23,6 +23,10 @@ $p-weight: 400;
 $letter-spacing: 0.15em;
 $transition-time-quick: 0.1s;
 $transition-time-slow: 0.2s;
+
+$content-padding: 1em;
+$content-padding-large: $content-padding*2;
+$content-padding-small: $content-padding/2;
 
 $max-width: 100em;
 
