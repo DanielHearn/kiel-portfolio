@@ -20,7 +20,7 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <a class="subportfolio-item box-shadow" href="{{ piece.image }}">
+            <a class="subportfolio-item box-shadow" href="{{ piece.image }}" title="{{ piece.title }}">
                 {% if piece.image %}
                     <img src="{{ piece.image }}">
                 {% endif %}

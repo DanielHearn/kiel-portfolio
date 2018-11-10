@@ -22,13 +22,13 @@
         }
         .front-container {
             .front-header {
-                padding: 1em;
+                padding: $content-padding;
             }
             .front-menu {
                 flex-direction: column;
                 width: 100%;
-                padding: 1em;
-                margin-top: 1em;
+                padding: $content-padding;
+                margin-top: $content-padding;
                 .front-section {
                     width: 100%;
                     clip-path: none;
@@ -72,10 +72,10 @@
             .experience-list {
                 .project {
                     .project-title {
-                        padding: 1em;
+                        padding: $content-padding;
                     }
                     .project-desc {
-                        padding: 1em;
+                        padding: $content-padding;
                     }
                 }
             }
