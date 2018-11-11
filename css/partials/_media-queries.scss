@@ -68,10 +68,7 @@
                     padding-bottom: $content-padding-large;
                 }
                 .portfolio-grid {
-                    flex-direction: column;
-                    .portfolio-item {
-                        width: initial;
-                    }
+                    grid-template-columns: repeat(1, 1fr);
                 }
                 .experience-list {
                     .project {

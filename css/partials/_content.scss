@@ -71,12 +71,12 @@ $box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-
 }
 
 .portfolio-grid {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $content-padding;
     .portfolio-item {
         display: block;
         flex: 1 auto;
-        width: 50%;
         margin: $content-padding;
         background: $light-grey;
         padding: 0.5em 0 0 0.5em;
