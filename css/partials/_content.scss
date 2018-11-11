@@ -127,6 +127,13 @@ $box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-
     }   
 }
 
+#bp_container {
+    #bp_caption span {
+        font-size: $subheading-size;
+        font-weight: $subheading-weight;
+    }
+}
+
 .experience-list {
     padding: 0;
     list-style: none;

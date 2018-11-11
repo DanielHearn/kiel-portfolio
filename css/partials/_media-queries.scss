@@ -61,21 +61,26 @@
 
 @media screen and (max-width: $mobile-break-width) { 
     body {
-        .main {
-            flex-direction: column;
-            .portfolio-grid {
+        .content {
+            .main {
                 flex-direction: column;
-                .portfolio-item {
-                    width: initial;
+                .column {
+                    padding-bottom: $content-padding-large;
                 }
-            }
-            .experience-list {
-                .project {
-                    .project-title {
-                        padding: $content-padding;
+                .portfolio-grid {
+                    flex-direction: column;
+                    .portfolio-item {
+                        width: initial;
                     }
-                    .project-desc {
-                        padding: $content-padding;
+                }
+                .experience-list {
+                    .project {
+                        .project-title {
+                            padding: $content-padding;
+                        }
+                        .project-desc {
+                            padding: $content-padding;
+                        }
                     }
                 }
             }
