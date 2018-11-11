@@ -115,6 +115,7 @@ $box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-
         overflow: hidden;
         position: relative;
         height: 20em;
+        cursor: pointer;
         img {
             max-width: 100%;
             z-index: 1;

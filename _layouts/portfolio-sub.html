@@ -20,13 +20,25 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <a class="subportfolio-item box-shadow" href="{{ piece.image }}" title="{{ piece.title }}">
+            <div class="subportfolio-item box-shadow" data-bp="{{ piece.image }}" data-caption="{{ piece.title }}">
                 {% if piece.image %}
-                    <img src="{{ piece.image }}">
+                    <img src="{{ piece.image }}" alt="{{ piece.title }}">
                 {% endif %}
-            </a>
+            </div>
         {% endfor %}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>baguetteBox.run('.subportfolio-grid');</script>
+    <script src="/js/BigPicture.js"></script>
+    <script>
+        var portfolioImages = document.querySelectorAll('.subportfolio-grid .subportfolio-item')
+        console.log(portfolioImages)
+        for(let img = 0; img < portfolioImages.length; img++) {
+            console.log(portfolioImages[img])        
+            portfolioImages[img].addEventListener('click', function() {
+                BigPicture({
+                    el: this,
+                    gallery: portfolioImages
+                })
+            })
+        }
+    </script>
 <section>
