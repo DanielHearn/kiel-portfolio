@@ -9,5 +9,8 @@ portfolio_piece:
     image: /images/uploads/L2_Fort_Desolation.jpg
   - title: Piece 3
     image: /images/uploads/Poster.jpg
+  - is_youtube: true
+    title: Youtube 1
+    youtube_link: Bey4XXJAqS8
 ---
 
