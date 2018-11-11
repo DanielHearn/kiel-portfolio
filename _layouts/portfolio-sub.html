@@ -20,24 +20,45 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <div class="subportfolio-item box-shadow" data-bp="{{ piece.image }}" data-caption="{{ piece.title }}">
+            <div class="subportfolio-item box-shadow" 
+                data-is-youtube="{{ piece.is_youtube }}" 
+                {% if piece.youtube_link %}
+                    data-youtube="{{ piece.youtube_link }}" 
+                {% endif %}
+                data-bp="{{ piece.image }}" 
+                data-caption="{{ piece.title }}">
                 {% if piece.image %}
                     <img src="{{ piece.image }}" alt="{{ piece.title }}">
+                {% else %}
+                    {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append: piece.youtube_link | append: "/hqdefault.jpg" %}
+                    <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
                 {% endif %}
             </div>
         {% endfor %}
     </div>
     <script src="/js/BigPicture.js"></script>
     <script>
-        var portfolioImages = document.querySelectorAll('.subportfolio-grid .subportfolio-item')
-        console.log(portfolioImages)
+        const portfolioImages = document.querySelectorAll('.subportfolio-grid .subportfolio-item[data-is-youtube="false"]')
+        const portfolioVideos = document.querySelectorAll('.subportfolio-grid .subportfolio-item[data-is-youtube="true"]')
+        
         for(let img = 0; img < portfolioImages.length; img++) {
-            console.log(portfolioImages[img])        
-            portfolioImages[img].addEventListener('click', function() {
+            const portfolioImage = portfolioImages[img];
+            portfolioImage.addEventListener('click', function() {
+                console.log(portfolioImage)
                 BigPicture({
-                    el: this,
+                    el: portfolioImage,
                     gallery: portfolioImages
-                })
+                });
+            })
+        }
+
+        for(let vid = 0; vid < portfolioVideos.length; vid++) {
+            const portfolioVideo = portfolioVideos[vid];
+            portfolioVideo.addEventListener('click', function() {
+                BigPicture({
+                    el: portfolioVideo,
+                    ytSrc: portfolioVideo.dataset.youtube
+                });
             })
         }
     </script>
