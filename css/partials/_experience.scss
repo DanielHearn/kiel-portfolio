@@ -1,0 +1,31 @@
+.experience-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    .project {
+        display: flex;
+        flex-direction: row;
+        padding: $content-padding;
+        margin-bottom: $content-padding;
+        background: $grey;
+        min-height: 6em;
+        .project-logo {
+            width: 10em;
+        }
+        p {
+            margin: 0;
+        }
+        .project-title {
+            letter-spacing: $letter-spacing;
+            text-transform: uppercase;
+            padding: $content-padding-small $content-padding;
+        }
+        .project-desc {
+            text-transform: uppercase;
+            background: $light-grey;
+            padding: $content-padding-small $content-padding;
+            flex: 1;
+        }
+    }
+}

@@ -32,11 +32,18 @@ $max-width: 100em;
 
 $mobile-break-width: 70em;
 
+$box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-grey;
+
 @import 'partials/normalize';
 @import 'partials/nav';
 @import 'partials/media-queries';
 @import 'partials/supports';
 @import 'partials/front';
+@import 'partials/experience';
+@import 'partials/inputs';
+@import 'partials/lightbox';
+@import 'partials/portfolio';
+@import 'partials/subportfolio';
 @import 'partials/content';
 
 * {
@@ -74,12 +81,4 @@ p {
 
 img {
     max-width: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: $white;
-    &:visited {
-        color: $white;
-    }
 }
