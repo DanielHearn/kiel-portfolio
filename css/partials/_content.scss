@@ -24,6 +24,7 @@
         padding: $content-padding;
         .main-image {
             top: $content-padding-large;
+            overflow: hidden;
             position: -webkit-sticky;
             position: sticky;
         }

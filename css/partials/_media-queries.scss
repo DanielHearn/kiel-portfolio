@@ -1,3 +1,24 @@
+@media screen and (min-width: $mobile-break-width) { 
+    body {
+        .content {
+            .main {
+                .column {
+                    .main-image {
+                        height: 100%;
+                        width: 100%;
+                        img {
+                            max-width: initial;
+                            height: 100vh;
+                            z-index: 5;
+                            position: fixed;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: $mobile-break-width) { 
     body {
         .content {
