@@ -1,8 +1,14 @@
 future: true
 
+plugins:
+  - jekyll-compress-images
+
 collections:
   portfolio:
     output: true
 
 sass:
     sass_dir: css
+
+compress_images:
+  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
