@@ -24,17 +24,30 @@
         .content {
             .main {
                 flex-direction: column;
+            }
+            .main {
+                flex-direction: column;
                 .column {
                     padding: 0;
+                    padding-bottom: $content-padding-large;
                 }
                 .experience-list {
                     .project {
                         flex-direction: column;
+                        .project-title {
+                            padding: $content-padding;
+                        }
+                        .project-desc {
+                            padding: $content-padding;
+                        }
                         .project-logo {
                             width: 100%;
                             height: initial;
                         }
                     }
+                }
+                .portfolio-grid {
+                    grid-template-columns: repeat(1, 1fr);
                 }
                 .subportfolio-grid {
                     grid-template-columns: repeat(2, 1fr);
@@ -67,6 +80,18 @@
 
 @media screen and (max-width: $mobile-break-width/2) { 
     body {
+        #overlay-button {
+            display: block;
+        }
+        #overlay.active {
+            display: block;
+            visibility: visible;
+        }
+        #nav {
+            ul {
+                display: none;
+            }
+        }
         .content {
             nav ul {
                 flex-direction: column;
@@ -74,32 +99,6 @@
             .main {
                 .subportfolio-grid {
                     grid-template-columns: repeat(1, 1fr);
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: $mobile-break-width) { 
-    body {
-        .content {
-            .main {
-                flex-direction: column;
-                .column {
-                    padding-bottom: $content-padding-large;
-                }
-                .portfolio-grid {
-                    grid-template-columns: repeat(1, 1fr);
-                }
-                .experience-list {
-                    .project {
-                        .project-title {
-                            padding: $content-padding;
-                        }
-                        .project-desc {
-                            padding: $content-padding;
-                        }
-                    }
                 }
             }
         }

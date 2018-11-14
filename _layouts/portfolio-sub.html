@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<nav>
+<nav id="nav">
     <ul>
         <li>
             <a href="/">Home</a>
@@ -17,6 +17,25 @@ layout: base
           </li>
     </ul>
 </nav>
+<div id="overlay">
+    <ul>
+        <li>
+        <a href="/">Home</a>
+        </li>
+        <li>
+        <a href="/portfolio">Portfolio</a>
+        </li>
+        <li>
+        <a href="/contact">Contact</a>
+        </li>
+        <li>
+        <a href="/experience">Experience</a>
+        </li>
+    </ul>
+</div>
+<div id="overlay-button">
+    <span></span>
+</div>
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
@@ -37,5 +56,4 @@ layout: base
         {% endfor %}
     </div>
     <script src="/js/BigPicture.js"></script>
-    <script src="/js/portfolio.js"></script>
 <section>
