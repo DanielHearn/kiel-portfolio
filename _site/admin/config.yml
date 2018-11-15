@@ -69,4 +69,4 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}   
           - {label: Is Youtube Link?, name: is_youtube, widget: "boolean", default: false}
-          - {label: Youtube ID, e.g. z_PeaHVcohg, name: youtube_link, widget: string}   
+          - {label: Youtube ID, hint: e.g. z_PeaHVcohg name: youtube_link, widget: string, required: false}   
