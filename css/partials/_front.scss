@@ -5,6 +5,7 @@
     width: 100%;
     //max-width: $max-width;
     min-height: 100vh;
+    @include fadein;
     .front-menu-container {
         display: flex;
         flex-direction: column;

@@ -80,19 +80,29 @@
 
 @media screen and (max-width: $mobile-break-width/2) { 
     body {
+        &.menu-active {
+            #overlay {
+                display: block;
+                visibility: visible;
+            }
+        }
+        #overlay-title {
+            left: 0;
+            padding: 0.4em 0.5em;
+        }
         #overlay-button {
             display: block;
         }
-        #overlay.active {
-            display: block;
-            visibility: visible;
-        }
         #nav {
+            height: 3em;
             ul {
                 display: none;
             }
         }
         .content {
+            .portfolio-item {
+                margin: 0;
+            }
             nav ul {
                 flex-direction: column;
             }

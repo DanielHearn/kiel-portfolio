@@ -1,13 +1,14 @@
+const body = document.querySelector('body')
 const menuButton = document.querySelector('#overlay-button')
-const overlay = document.querySelector('#overlay')
+// const overlay = document.querySelector('#overlay')
 
 function toggleOverlay () {
-  overlay.classList.toggle('active')
-  menuButton.classList.toggle('active')
+  body.classList.toggle('menu-active')
+  // menuButton.classList.toggle('active')
 }
 
 // Mobile menu
-if (menuButton && overlay) {
+if (menuButton) {
   menuButton.addEventListener('click', toggleOverlay)
 }
 

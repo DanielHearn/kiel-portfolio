@@ -1,0 +1,3 @@
+@mixin fadein {
+  animation: fadeinAnim $transition-time-slow ease-in-out;
+}

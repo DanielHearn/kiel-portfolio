@@ -17,6 +17,7 @@
     //flex: 1 auto;
     flex-direction: row;
     padding: $content-padding;
+    @include fadein;
     .column {
         display: flex;
         flex: 1;
