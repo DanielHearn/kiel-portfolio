@@ -23,7 +23,9 @@
         color: white;
         text-decoration: none;
         font-size:  $subheading-size;
-        font-weight: $subheading-weight;
+        font-weight: $heading-weight;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
         &:hover {
           color: $accent-dark;
         }

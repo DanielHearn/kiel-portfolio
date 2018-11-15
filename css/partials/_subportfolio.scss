@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: $content-padding;
+    padding: $content-padding;
     .subportfolio-item {
         flex: 1;   
         overflow: hidden;

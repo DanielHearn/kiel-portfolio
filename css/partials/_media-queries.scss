@@ -21,6 +21,20 @@
 
 @media screen and (max-width: $mobile-break-width) { 
     body {
+        &.menu-active {
+            #overlay {
+                display: block;
+                visibility: visible;
+            }
+        }
+        #overlay-button {
+            display: block;
+        }
+        #nav {
+            ul {
+                display: none;
+            }
+        }
         .content {
             .main {
                 flex-direction: column;
@@ -80,24 +94,23 @@
 
 @media screen and (max-width: $mobile-break-width/2) { 
     body {
-        &.menu-active {
-            #overlay {
-                display: block;
-                visibility: visible;
-            }
-        }
         #overlay-title {
             left: 0;
             padding: 0.4em 0.5em;
-        }
-        #overlay-button {
-            display: block;
         }
         #nav {
             height: 3em;
             ul {
                 display: none;
             }
+        }
+        .front-container {
+            .front-header {
+                letter-spacing: 0.2em;
+            }
+        }
+        .subportfolio-grid {
+            padding: 0;
         }
         .content {
             .portfolio-item {
