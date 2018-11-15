@@ -162,7 +162,7 @@
       var el = doc[createEl]('button')
       el.className = 'bp-lr'
       el[htmlInner] =
-				'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" height="75" fill="#fff"><path d="M88.6 121.3c.8.8 1.8 1.2 2.9 1.2s2.1-.4 2.9-1.2a4.1 4.1 0 0 0 0-5.8l-51-51 51-51a4.1 4.1 0 0 0-5.8-5.8l-54 53.9a4.1 4.1 0 0 0 0 5.8l54 53.9z"/></svg>'
+				'<div class="slider-button"><div class="slider-arrow"></div></div>'
       changeCSS(el, style)
       el.onclick = function (e) {
         e.stopPropagation()
