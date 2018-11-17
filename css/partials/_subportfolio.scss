@@ -1,7 +1,10 @@
 .subportfolio-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: $content-padding;
+    row-gap: $content-padding;
+    grid-row-gap: $content-padding;
+    column-gap: $content-padding;
+    grid-column-gap: $content-padding;
     padding: $content-padding;
     .subportfolio-item {
         flex: 1;   

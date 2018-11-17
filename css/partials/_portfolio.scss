@@ -6,7 +6,9 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: $content-padding-large;
+    grid-row-gap: $content-padding-large;
     column-gap: $content-padding;
+    grid-column-gap: $content-padding;
     .portfolio-item {
         display: block;
         flex: 1 auto;
