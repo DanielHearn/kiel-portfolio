@@ -42,12 +42,13 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <div class="subportfolio-item box-shadow" 
+            <a class="subportfolio-item box-shadow" 
                 data-is-youtube="{{ piece.is_youtube }}" 
                 {% if piece.youtube_link %}
-                    data-youtube="{{ piece.youtube_link }}" 
+                    href="{{ piece.youtube_link }}" 
+                {% else %}
+                    href="{{ piece.image }}" 
                 {% endif %}
-                data-bp="{{ piece.image }}" 
                 data-caption="{{ piece.title }}">
                 {% if piece.image %}
                     <img src="{{ piece.image }}" alt="{{ piece.title }}">
@@ -55,8 +56,11 @@ layout: base
                     {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append: piece.youtube_link | append: "/hqdefault.jpg" %}
                     <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
                 {% endif %}
-            </div>
+             </a>
         {% endfor %}
     </div>
-    <script src="/js/BigPicture.js"></script>
+    <script src="/js/lightgallery.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="/js/lg-video.min.js"></script>
 <section>

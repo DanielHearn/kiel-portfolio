@@ -14,7 +14,8 @@ if (menuButton) {
 
 // Portfolio grid
 if (document.querySelector('.subportfolio-grid')) {
-  const portfolioImages = document.querySelectorAll('.subportfolio-grid .subportfolio-item[data-is-youtube="false"], .subportfolio-grid .subportfolio-item[data-is-youtube=""]')
+  lightGallery(document.querySelector('.subportfolio-grid'))
+  /* const portfolioImages = document.querySelectorAll('.subportfolio-grid .subportfolio-item[data-is-youtube="false"], .subportfolio-grid .subportfolio-item[data-is-youtube=""]')
   const portfolioVideos = document.querySelectorAll('.subportfolio-grid .subportfolio-item[data-is-youtube="true"]')
 
   for (let img = 0; img < portfolioImages.length; img++) {
@@ -35,5 +36,5 @@ if (document.querySelector('.subportfolio-grid')) {
         ytSrc: portfolioVideo.dataset.youtube
       })
     })
-  }
+  } */
 }
