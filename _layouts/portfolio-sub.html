@@ -53,7 +53,8 @@ layout: base
                 {% if piece.image %}
                     <img src="{{ piece.image }}" alt="{{ piece.title }}">
                 {% else %}
-                    {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append: piece.youtube_link | append: "/hqdefault.jpg" %}
+                    {% assign id = piece.youtube_link | split: '?v=' %}
+                    {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append:  id[1] | append: "/hqdefault.jpg" %}
                     <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
                 {% endif %}
              </a>
