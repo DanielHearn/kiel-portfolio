@@ -35,8 +35,8 @@ $mobile-break-width: 70em;
 $box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-grey;
 
 @import 'partials/normalize';
-@import 'partials/mixins';
 @import 'partials/animations';
+@import 'partials/mixins';
 @import 'partials/nav';
 @import 'partials/media-queries';
 @import 'partials/supports';

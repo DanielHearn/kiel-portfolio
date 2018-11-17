@@ -62,9 +62,15 @@ artstation_link: http://www.artstation.com
     </div>
     <div class="column">
         <div class="main-image portfolio-images">
-            <img id="featured-image-1" src="{{ page.image_1 }}" alt="">
-            <img id="featured-image-2" src="{{ page.image_2 }}" alt="">
-            <img id="featured-image-3" src="{{ page.image_3 }}" alt="">
+            {% if page.image_1 %}
+                <img id="featured-image-1" src="{{ page.image_1 }}" alt="">
+            {% endif %}
+            {% if page.image_2 %}
+                <img id="featured-image-2" src="{{ page.image_2 }}" alt="">
+            {% endif %}
+            {% if page.image_3 %}
+                <img id="featured-image-3" src="{{ page.image_3 }}" alt="">
+            {% endif %}
         </div>
     </div>
 </section>

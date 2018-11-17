@@ -7,3 +7,26 @@
     opacity: 100;
   }
 }
+
+@keyframes showAnim {
+  0% {
+    opacity: 0;
+
+  }
+
+  3% {
+    opacity: 100;
+  }
+
+  34% {
+    opacity: 100;
+  }
+
+  37% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
