@@ -4,7 +4,7 @@ const aboutButton = document.querySelector('.triangle-top')
 
 function toggleOverlay () {
   body.classList.toggle('menu-active')
-  // menuButton.classList.toggle('active')
+  document.querySelector('html').classList.toggle('fixed')
 }
 
 // Mobile menu

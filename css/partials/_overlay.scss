@@ -6,8 +6,7 @@
   visibility: hidden;
   position: fixed;
   border: none;
-  animation-duration: $transition-time-slow;
-  animation-name: fadeinAnim;
+  opacity: 0;
   ul {
     display: flex;
     justify-content: center;
