@@ -38,7 +38,9 @@ collections:
           - {label: Layout, name: layout, widget: hidden, default: 'portfolio'}
           - {label: Title, name: title, widget: string}
           - {label: Artstation Link, name: artstation_link, widget: string}
-          - {label: Featured Image, name: image, widget: image}    
+          - {label: Featured Image 1, name: image, widget: image}    
+          - {label: Featured Image 2, name: image_2, widget: image}    
+          - {label: Featured Image 3, name: image_3, widget: image}    
       - label: "Experience Page"
         name: "experience"
         file: "experience.md"
