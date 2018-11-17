@@ -14,7 +14,7 @@ portfolio_piece:
     is_youtube: false
   - is_youtube: true
     title: Youtube 1
-    youtube_link: Bey4XXJAqS8
+    youtube_link: 'https://www.youtube.com/watch?v=Bey4XXJAqS8'
   - title: Example title
     image: /images/uploads/Talovka_3.jpg
   - title: This is a title
