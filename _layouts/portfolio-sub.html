@@ -49,7 +49,7 @@ layout: base
                 {% else %}
                     href="{{ piece.image }}" 
                 {% endif %}
-                data-caption="{{ piece.title }}">
+                data-sub-html=".caption">
                 {% if piece.image %}
                     <img src="{{ piece.image }}" alt="{{ piece.title }}">
                 {% else %}
@@ -57,11 +57,13 @@ layout: base
                     {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append:  id[1] | append: "/hqdefault.jpg" %}
                     <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
                 {% endif %}
+                <div class="caption">
+                    <h4>{{ piece.title }}</h4>
+                </div>
              </a>
         {% endfor %}
     </div>
     <script src="/js/lightgallery.min.js"></script>
-
     <!-- lightgallery plugins -->
     <script src="/js/lg-video.min.js"></script>
 <section>

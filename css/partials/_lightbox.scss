@@ -16,3 +16,12 @@
         }
     }
 }*/
+
+
+.lg {
+    .lg-sub-html h4{
+        font-size: $subheading-size;
+        font-weight: $subheading-weight;
+        padding: $content-padding-small;
+    }
+}

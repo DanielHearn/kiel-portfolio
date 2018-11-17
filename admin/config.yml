@@ -29,7 +29,7 @@ collections:
         fields:
           - {label: Layout, name: layout, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
-          - {label: Content, name: contact_text, widget: markdown}
+          - {label: Content, name: body, widget: markdown}
           - {label: Featured Image, name: image, widget: image}     
       - label: "Portfolio Page"
         name: "portfolio"
