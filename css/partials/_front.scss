@@ -44,8 +44,6 @@
         margin-top: 4em;
         .front-section {
             text-align: center;
-            text-transform: uppercase;
-            letter-spacing: $letter-spacing*2;
             position: absolute;
             width: 100%;
             background: $grey;
@@ -67,6 +65,8 @@
                 font-size: $subheading-size;
                 font-weight: 600;
                 margin: 0;
+                letter-spacing: $letter-spacing*2;
+                text-transform: uppercase;
             }
             img {
                 filter: contrast(80%) brightness(80%);
@@ -75,15 +75,36 @@
         }
         .about-box {
             position: absolute;
-            display: flex;
+            display: block;
             width: 50%;
             height: 72%;
             background: $grey;
             z-index: 10;
-            display: none;
             margin: 2em 4em;
             top: 0;
             left: 0;
+            opacity: 0;
+            transition: opacity $transition-time-quick ease-in-out;
         }
     }
+}
+
+.about-title {
+    letter-spacing: $letter-spacing*2;
+    text-transform: uppercase;
+}
+
+#overlay-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.mobile-about-button {
+    display: none;
 }

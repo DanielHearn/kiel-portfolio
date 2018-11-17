@@ -19,6 +19,9 @@ $triangle-inner-edge: 2em;
                             .section-name {
                                 display: none;
                             }
+                            &:hover .about-box {
+                                opacity: 100;
+                            }
                         }
                         &.triangle-bottom {
                             -webkit-clip-path: polygon($triangle-inner-edge calc(6% + 2em), $triangle-outer-edge calc(6% + 2em), $triangle-outer-edge 200%, $triangle-inner-edge 200%);
@@ -40,9 +43,6 @@ $triangle-inner-edge: 2em;
                             .section-name {
                                 right: -10em;
                             }
-                        }
-                        .about-box {
-                            display: block;
                         }
                     }
                 }

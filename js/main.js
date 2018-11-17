@@ -1,6 +1,6 @@
 const body = document.querySelector('body')
 const menuButton = document.querySelector('#overlay-button')
-// const overlay = document.querySelector('#overlay')
+const aboutButton = document.querySelector('.triangle-top')
 
 function toggleOverlay () {
   body.classList.toggle('menu-active')
@@ -10,6 +10,11 @@ function toggleOverlay () {
 // Mobile menu
 if (menuButton) {
   menuButton.addEventListener('click', toggleOverlay)
+}
+
+// Front page menu
+if (aboutButton) {
+  aboutButton.addEventListener('click', toggleOverlay)
 }
 
 // Portfolio grid
