@@ -86,6 +86,19 @@
                 }
             }
         }
+        .lg {
+            .lg-actions {
+                .lg-next.lg-icon, .lg-prev.lg-icon {
+                    padding: 0.75em;
+                }
+                .lg-next.lg-icon {
+                    right: 0.5em;
+                }
+                .lg-prev.lg-icon {
+                    left: 0.5em;
+                }
+            }
+        }
         .front-container {
             .front-header {
                 padding: $content-padding;
@@ -102,7 +115,7 @@
                     position: initial;
                     .section-name {
                         margin: 0;
-                        letter-spacing: 0;
+                        letter-spacing: 0.2em;
                     }
                 }
             }
