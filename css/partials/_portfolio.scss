@@ -34,6 +34,7 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
                 text-align: center;
                 text-transform: uppercase;
                 p {
+                    letter-spacing: 0.05em;
                     margin: 0.75em 0 0 0;
                 }
             }

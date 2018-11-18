@@ -19,8 +19,8 @@ $triangle-inner-edge: 2em;
                             .section-name {
                                 display: none;
                             }
-                            &:hover .about-box {
-                                opacity: 100;
+                            .about-box {
+                                display: block;
                             }
                         }
                         &.triangle-bottom {

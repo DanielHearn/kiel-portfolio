@@ -26,6 +26,13 @@ if (document.querySelector('.subportfolio-grid')) {
     showAfterLoad: true,
     download: false,
     cssEasing: 'ease-in-out',
-    swipeThreshold: 25
+    swipeThreshold: 25,
+    mode: 'lg-slide',
+    hideBarsDelay: 99999999,
+    youtubePlayerParams: {
+      autoplay: 0,
+    },
+    preload: 0,
+    autoplay: false,
   })
 }
