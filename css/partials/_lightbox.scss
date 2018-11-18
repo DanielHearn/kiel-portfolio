@@ -24,24 +24,50 @@
         font-weight: $subheading-weight;
         padding: $content-padding-small;
     }
-    .lg-prev, .lg-next {
-        &.lg-icon {
-            border-radius: 50%;
-            padding: 1em;
-            .lg-arrow {
-                border: solid $white;
-                border-width: 0 .2em .2em 0;
-                display: inline-block;
-                padding: .4em;
-            }
+    .lg-toolbar.group {
+        background-color: transparent;
+        .lg-close.lg-icon {
+            font-size: 2.5em;
+            margin-top: 0.5em;
+            margin-right: 0.5em;
+            background-color: rgba(0,0,0,.45);
         }
     }
-    .lg-next .lg-arrow {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
+    .lg-item {
+        .lg-video-cont {
+            width: 90%;
+            max-width: 90% !important;
+        }
     }
-    .lg-prev .lg-arrow {
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
+    .lg-actions {
+        .lg-prev, .lg-next {
+            &.lg-icon {
+                border-radius: 50%;
+                padding: 1em;
+                .lg-arrow {
+                    position: relative;
+                    border: solid $white;
+                    border-width: 0 .2em .2em 0;
+                    display: inline-block;
+                    padding: .4em;
+                }
+            }
+        }
+        .lg-next {
+            right: $content-padding;
+            .lg-arrow {
+                right: 25%;
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+        }
+        .lg-prev {
+            left: $content-padding;
+            .lg-arrow {
+                left: 25%;
+                transform: rotate(135deg);
+                -webkit-transform: rotate(135deg);
+            }
+        }
     }
 }
