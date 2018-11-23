@@ -19,6 +19,17 @@
     }
 }
 
+@media screen and (max-width: 100em) { 
+    body {
+        .front-container {
+            .front-menu {
+                width: 65%;
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: $mobile-break-width) { 
     html {
         &.fixed {
@@ -117,6 +128,9 @@
                 padding: $content-padding;
                 margin-top: $content-padding;
                 .front-section {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     width: 100%;
                     clip-path: none;
                     -webkit-clip-path: none;

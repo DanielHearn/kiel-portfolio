@@ -18,30 +18,40 @@ layout: default
     <div class="front-menu-container">
         <section class="front-menu">
             <div class="front-section triangle-top">
-                <a>
+                <a class="border-outer"></a>
+                <a class="border-inner"></a>
+                <!--<a>
                     <div class="about-box">
                         <p class="about-title">About</p>
                         <p>{{ page.about_text }}</p>
                     </div>
-                    <p class="section-name">About</p>
+                </a>-->
+                <p class="section-name">About</p>
+                <a class="img">
                     <img src="{{ page.about_image }}" alt="">
                 </a>
             </div>
             <div class="front-section triangle-right">
-                <a href="/experience">
-                    <p class="section-name">Experience</p>
+                <a class="border-outer"></a>
+                <a class="border-inner"></a>
+                <p class="section-name">Experience</p>
+                <a href="/experience" class="img">
                     <img src="{{ page.experience_image }}" alt="">
                 </a>
             </div>
             <div class="front-section triangle-bottom">
-                <a href="/portfolio">
-                    <p class="section-name">Portfolio</p>
+                <a class="border-outer"></a>
+                <a class="border-inner"></a>
+                <p class="section-name">Portfolio</p>
+                <a href="/portfolio" class="img">
                     <img src="{{ page.portfolio_image }}" alt="">
                 </a>
             </div>
             <div class="front-section triangle-left">
-                <a href="/contact">
-                    <p class="section-name">Contact</p>
+                <a class="border-outer"></a>
+                <a class="border-inner"></a>
+                <p class="section-name">Contact</p>
+                <a href="/contact" class="img">
                     <img src="{{ page.contact_image }}" alt="">
                 </a>
             </div>

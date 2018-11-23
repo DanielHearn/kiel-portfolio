@@ -1,21 +1,65 @@
-$triangle-outer-edge: calc(100% - 2em);
-$triangle-inner-edge: 2em;
+$front-spacing-large: 4em;
+$front-spacing-small: $front-spacing-large / 2;
+$front-spacing-xsmall: $front-spacing-small / 2;
 
 @supports not(-ms-ime-align: auto) {
     @media screen and (min-width: $mobile-break-width) {
         .front-container {
+            overflow: hidden;
             .front-menu {
+                height: 50vh;
+                transition: width $transition-time-slow ease-in-out;
                 .front-section {
-                    &:hover {
-                        z-index: 5;
-                        -webkit-clip-path:polygon(5% 0, 95% 0, 95% 95%, 5% 95%);
-                        clip-path: polygon(5% 0, 95% 0, 95% 95%, 5% 95%);
+                    height: 100%;
+                    pointer-events: none;
+                    a {
+                        pointer-events: auto;
+                    }
+                    .img {
+                        position: absolute;
+                        height: 100%;
+                        background: $light-grey;
                         img {
-                            filter: contrast(100%) brightness(100%);
+                            object-fit: cover;
+                            height: 100%;
+                            width: 100%;
                         }
-                        &.triangle-top {
-                            -webkit-clip-path: polygon($triangle-inner-edge 0, $triangle-outer-edge 0, $triangle-outer-edge calc(92% - 2em), $triangle-inner-edge calc(92% - 2em));
-                            clip-path: polygon($triangle-inner-edge 0, $triangle-outer-edge 0, $triangle-outer-edge calc(92% - 2em), $triangle-inner-edge calc(92% - 2em));
+                    }
+                    .border-outer {
+                        position: absolute;
+                        background: #343434;
+                    }
+                    .border-inner {
+                        position: absolute;
+                        background: #3d3d3d;
+                    }
+                    .section-name {
+                        position: absolute;
+                        text-align: center;
+                    }
+                    &.triangle-top {
+                        .border-outer {
+                            top: -($front-spacing-small + $front-spacing-xsmall);
+                            left: $front-spacing-small;
+                            width: calc(100% - #{$front-spacing-large});
+                            height: $front-spacing-small;
+                        }
+                        .border-inner {
+                            top: -($front-spacing-xsmall);
+                            left: $front-spacing-small;
+                            width: calc(100% - #{$front-spacing-large});
+                            height: 1em;
+                            clip-path: polygon(0 0, 100% 0, calc(100% - #{$front-spacing-small}) 100%, $front-spacing-small 100%)
+                        }
+                        .img {
+                            -webkit-clip-path: polygon(50% 40%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
+                            clip-path: polygon(50% 40%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
+                        }
+                        .section-name {
+                            top: 15%;
+                            width: 100%;
+                        }
+                        &:hover {
                             .section-name {
                                 display: none;
                             }
@@ -23,68 +67,111 @@ $triangle-inner-edge: 2em;
                                 display: block;
                             }
                         }
-                        &.triangle-bottom {
-                            -webkit-clip-path: polygon($triangle-inner-edge calc(6% + 2em), $triangle-outer-edge calc(6% + 2em), $triangle-outer-edge 200%, $triangle-inner-edge 200%);
-                            clip-path: polygon($triangle-inner-edge calc(6% + 2em), $triangle-outer-edge calc(6% + 2em), $triangle-outer-edge 200%, $triangle-inner-edge 200%);
+                    }
+                    &.triangle-bottom {
+                        .border-outer {
+                            bottom: -3em;
+                            left: $front-spacing-small;
+                            width: calc(100% - #{$front-spacing-large});
+                            height: 2em;
+                        }
+                        .border-inner {
+                            bottom: -1em;
+                            left: $front-spacing-small;
+                            width: calc(100% - #{$front-spacing-large});
+                            height: 1em;
+                            clip-path: polygon(#{$front-spacing-small} 0, calc(100% - #{$front-spacing-small}) 0, 100% 100%, 0% 100%);
+                        }
+                        .img {
+                            -webkit-clip-path: polygon(50% 60%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
+                            clip-path: polygon(50% 60%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
+                        }
+                        .section-name {
+                            bottom: 15%;
+                            width: 100%;
+                        }
+                        &:hover{
                             .section-name {
-                                bottom: -3em;
+                                bottom: -12%;
                             }
                         }
-                        &.triangle-left {
-                            -webkit-clip-path: polygon(-100% $triangle-inner-edge, $triangle-outer-edge $triangle-inner-edge, $triangle-outer-edge $triangle-outer-edge, -100% $triangle-outer-edge);
-                            clip-path: polygon(-100% $triangle-inner-edge, $triangle-outer-edge $triangle-inner-edge, $triangle-outer-edge $triangle-outer-edge, -100% $triangle-outer-edge);
+                    }
+                    &.triangle-left {
+                        .border-outer {
+                            top: 2em;
+                            left: -3em;
+                            width: 2em;
+                            height: calc(100% - 4em);
+                        }
+                        .border-inner {
+                            top: 2em;
+                            left: -1em;
+                            width: 1em;
+                            height: calc(100% - 4em);
+                            -webkit-clip-path: polygon(0 0, 100% 1em, 100% 100%, 0 calc(100% - 1em));
+                            clip-path: polygon(0 0, 100% 1em, 100% calc(100% - 1em), 0 100%);
+                        }
+                        .img {
+                            -webkit-clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
+                            clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
+                        }
+                        .img {
+                            -webkit-clip-path: polygon(45% 50%, 0 3em, 0 calc(100% - 3em));
+                            clip-path: polygon(45% 50%, 0 3em, 0 calc(100% - 3em));
+                        }
+                        .section-name {
+                            top: 50%;
+                            left: 10%;
+                        }
+                        &:hover{
                             .section-name {
-                                left: -8em;
+                                left: -18%;
                             }
                         }
-                        &.triangle-right {
-                            -webkit-clip-path: polygon($triangle-inner-edge $triangle-inner-edge, 200% $triangle-inner-edge, 200% $triangle-outer-edge, $triangle-inner-edge $triangle-outer-edge);
-                            clip-path: polygon($triangle-inner-edge $triangle-inner-edge, 200% $triangle-inner-edge, 200% $triangle-outer-edge, $triangle-inner-edge $triangle-outer-edge);
+                    }
+                    &.triangle-right {
+                        .border-outer {
+                            top: 2em;
+                            right: -3em;
+                            width: 2em;
+                            height: calc(100% - 4em);
+                        }
+                        .border-inner {
+                            top: 2em;
+                            right: -1em;
+                            width: 1em;
+                            height: calc(100% - 4em);
+                            -webkit-clip-path: polygon(0 1em, 100% 0, 100% 100%, 0 calc(100% - 1em));
+                            clip-path: polygon(0 1em, 100% 0, 100% 100%, 0 calc(100% - 1em));
+                        }
+                        .img {
+                            -webkit-clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
+                            clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
+                        }
+                        .section-name {
+                            top: 50%;
+                            right: 10%;
+                        }
+                        &:hover{
+                            .img {
+                                right: 0;
+                            }
                             .section-name {
-                                right: -10em;
+                                right: -22%;
                             }
                         }
                     }
-                }
-                .triangle-top {
-                    -webkit-clip-path: polygon(50% 40%, 5% 0, 95% 0);
-                    clip-path: polygon(50% 40%, 5% 0, 95% 0);
-                    a {
-                        border-top: solid 2em $grey;
-                    }
-                    .section-name {
-                        top: 15%;
-                    }
-                }
-                .triangle-bottom {
-                    top: -3em;
-                    -webkit-clip-path: polygon(50% 60%,5% 100%,95% 100%);
-                    clip-path: polygon(50% 60%,5% 100%,95% 100%);
-                    a {
-                        border-bottom: solid 2em $grey;
-                    }
-                    .section-name {
-                        bottom: 15%;
-                    }
-                }
-                .triangle-left {
-                    -webkit-clip-path: polygon(45% 50%, 0 5%, 0 95%);
-                    clip-path: polygon(45% 50%, 0 5%, 0 95%);
-                    a {
-                        border-left: solid 2em $grey;
-                    }
-                    .section-name {
-                        left: 10%;
-                    }
-                }
-                .triangle-right {
-                    -webkit-clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
-                    clip-path: polygon(55% 50%, 100% 95%, 100% 5%);
-                    a {
-                        border-right: solid 2em $grey;
-                    }
-                    .section-name {
-                        right: 10%;
+                    &:hover {
+                        z-index: 15;
+                        img {
+                            filter: contrast(100%) brightness(100%);
+                        }
+                        .img {
+                            clip-path: none;
+                        }
+                        .section-name{
+                            z-index: 20;
+                        }
                     }
                 }
             }
