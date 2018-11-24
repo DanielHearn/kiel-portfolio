@@ -103,9 +103,6 @@
                         }
                     }
                 }
-                .portfolio-grid {
-                    grid-template-columns: repeat(1, 1fr);
-                }
                 .subportfolio-grid {
                     grid-template-columns: repeat(2, 1fr);
                 }
@@ -182,6 +179,9 @@
                 flex-direction: column;
             }
             .main {
+                .portfolio-grid {
+                    grid-template-columns: repeat(1, 1fr);
+                }
                 .subportfolio-grid {
                     grid-template-columns: repeat(1, 1fr);
                 }
