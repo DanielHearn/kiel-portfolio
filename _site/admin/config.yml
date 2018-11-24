@@ -64,6 +64,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio-sub"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Order on portfolio page", 
+        name: "order",
+        widget: "number",
+        default: 1,
+        valueType: "int",
+        min: 1}
       - label: Portfolio Piece
         name: portfolio_piece
         widget: list

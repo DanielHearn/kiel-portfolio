@@ -44,7 +44,8 @@ artstation_link: http://www.artstation.com
     <div class="column">
         <div class="column-content portfolio-container">
             <div class="portfolio-grid">
-                {% for portfolio in site.portfolio %}
+                {% assign portfolio_list = site.portfolio | sort: 'order' %}
+                {% for portfolio in portfolio_list %}
                     <a class="portfolio-item" href="{{ portfolio.url }}">
                         <div class="portfolio-content">
                             <div class="portfolio-image"  style="background-image: url('{{ site.baseurl }}{{ portfolio.image }}');"></div>
