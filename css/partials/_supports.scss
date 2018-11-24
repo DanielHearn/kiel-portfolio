@@ -1,4 +1,4 @@
-$front-spacing-large: 4em;
+$front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
@@ -39,21 +39,21 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     }
                     &.triangle-top {
                         .border-outer {
-                            top: -($front-spacing-small + $front-spacing-xsmall);
+                            top: -3em;
                             left: $front-spacing-small;
-                            width: calc(100% - #{$front-spacing-large});
-                            height: $front-spacing-small;
+                            width: calc(100% - 2em);
+                            height: $front-spacing-large;
                         }
                         .border-inner {
-                            top: -($front-spacing-xsmall);
+                            top: -1em;
                             left: $front-spacing-small;
-                            width: calc(100% - #{$front-spacing-large});
+                            width: calc(100% - 2em);
                             height: 1em;
                             clip-path: polygon(0 0, 100% 0, calc(100% - #{$front-spacing-small}) 100%, $front-spacing-small 100%)
                         }
                         .img {
-                            -webkit-clip-path: polygon(50% 40%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
-                            clip-path: polygon(50% 40%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
+                            -webkit-clip-path: polygon(50% 45%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
+                            clip-path: polygon(50% 45%, $front-spacing-large 0, calc(100% - #{$front-spacing-large}) 0);
                         }
                         .section-name {
                             top: 15%;
@@ -83,8 +83,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             clip-path: polygon(#{$front-spacing-small} 0, calc(100% - #{$front-spacing-small}) 0, 100% 100%, 0% 100%);
                         }
                         .img {
-                            -webkit-clip-path: polygon(50% 60%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
-                            clip-path: polygon(50% 60%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
+                            -webkit-clip-path: polygon(50% 55%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
+                            clip-path: polygon(50% 55%,$front-spacing-large 100%, calc(100% - #{$front-spacing-large}) 100%);
                         }
                         .section-name {
                             bottom: 15%;
@@ -108,16 +108,12 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             left: -1em;
                             width: 1em;
                             height: calc(100% - 4em);
-                            -webkit-clip-path: polygon(0 0, 100% 1em, 100% 100%, 0 calc(100% - 1em));
-                            clip-path: polygon(0 0, 100% 1em, 100% calc(100% - 1em), 0 100%);
+                            -webkit-clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
+                            clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
                         }
                         .img {
-                            -webkit-clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
-                            clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
-                        }
-                        .img {
-                            -webkit-clip-path: polygon(45% 50%, 0 3em, 0 calc(100% - 3em));
-                            clip-path: polygon(45% 50%, 0 3em, 0 calc(100% - 3em));
+                            -webkit-clip-path: polygon(45% 50%, 0 calc(2% + 2em), 0 calc(98% - 2em));
+                            clip-path: polygon(45% 50%, 0 calc(2% + 2em), 0 calc(98% - 2em));
                         }
                         .section-name {
                             top: 50%;
@@ -141,12 +137,12 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             right: -1em;
                             width: 1em;
                             height: calc(100% - 4em);
-                            -webkit-clip-path: polygon(0 1em, 100% 0, 100% 100%, 0 calc(100% - 1em));
-                            clip-path: polygon(0 1em, 100% 0, 100% 100%, 0 calc(100% - 1em));
+                            -webkit-clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 98%);
+                            clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 98%);
                         }
                         .img {
-                            -webkit-clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
-                            clip-path: polygon(55% 50%, 100% calc(100% - 3em), 100% 3em);
+                            -webkit-clip-path: polygon(55% 50%, 100% calc(98% - 2em), 100% calc(2% + 2em));
+                            clip-path: polygon(55% 50%, 100% calc(98% - 2em), 100% calc(2% + 2em));
                         }
                         .section-name {
                             top: 50%;
