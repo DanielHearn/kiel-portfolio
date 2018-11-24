@@ -1,6 +1,6 @@
 const body = document.querySelector('body')
 const menuButton = document.querySelector('#overlay-button')
-const aboutButton = document.querySelector('.triangle-top')
+const aboutButton = document.querySelector('.triangle-bottom')
 
 function toggleOverlay () {
   body.classList.toggle('menu-active')
@@ -30,9 +30,9 @@ if (document.querySelector('.subportfolio-grid')) {
     mode: 'lg-slide',
     hideBarsDelay: 99999999,
     youtubePlayerParams: {
-      autoplay: 0,
+      autoplay: 0
     },
     preload: 0,
-    autoplay: false,
+    autoplay: false
   })
 }
