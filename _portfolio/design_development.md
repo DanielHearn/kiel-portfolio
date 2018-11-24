@@ -2,6 +2,7 @@
 layout: portfolio-sub
 title: Design Development
 image: /images/uploads/Poster.jpg
+order: 2
 portfolio_piece:
   - title: Piece 1
     image: /images/uploads/bike.jpg
