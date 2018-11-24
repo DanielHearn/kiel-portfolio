@@ -23,6 +23,7 @@
         text-align: center;
         text-transform: uppercase;
         letter-spacing: $letter-spacing*8;
+        padding: $content-padding;
         h1 {
             font-size: $title-size;
             font-weight: $title-weight;
@@ -69,7 +70,7 @@
                 text-transform: uppercase;
             }
             img {
-                filter: contrast(80%) brightness(80%);
+                filter: contrast(80%) brightness(85%);
                 transition: filter $transition-time-slow ease-in-out;
             }
         }
@@ -90,6 +91,8 @@
 .about-title {
     letter-spacing: $letter-spacing*2;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: $subheading-size;
 }
 
 #overlay-about {

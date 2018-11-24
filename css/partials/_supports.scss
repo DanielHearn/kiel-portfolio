@@ -49,6 +49,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             left: $front-spacing-small;
                             width: calc(100% - 2em);
                             height: 1em;
+                            -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - #{$front-spacing-small}) 100%, $front-spacing-small 100%);
                             clip-path: polygon(0 0, 100% 0, calc(100% - #{$front-spacing-small}) 100%, $front-spacing-small 100%)
                         }
                         .img {
@@ -80,6 +81,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             left: $front-spacing-small;
                             width: calc(100% - #{$front-spacing-large});
                             height: 1em;
+                            -webkit-clip-path: polygon(#{$front-spacing-small} 0, calc(100% - #{$front-spacing-small}) 0, 100% 100%, 0% 100%);
                             clip-path: polygon(#{$front-spacing-small} 0, calc(100% - #{$front-spacing-small}) 0, 100% 100%, 0% 100%);
                         }
                         .img {
