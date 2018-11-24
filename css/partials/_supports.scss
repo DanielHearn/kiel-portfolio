@@ -2,7 +2,8 @@ $front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
-@supports not(-ms-ime-align: auto) {
+//@supports not(-ms-ime-align: auto) {
+@supports (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) and (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) and (object-fit: cheese) {
     @media screen and (min-width: $mobile-break-width) {
         .front-container {
             overflow: hidden;
@@ -170,23 +171,6 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name{
                             z-index: 20;
                         }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@supports (-ms-ime-align: auto) {
-    body {
-        .front-container {
-            .front-menu {
-                flex-direction: column;
-                .front-section {
-                    width: 100%;
-                    position: relative;
-                    .section-name {
-                        margin: 0;
                     }
                 }
             }

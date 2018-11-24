@@ -4,13 +4,19 @@
             .main {
                 .column {
                     .main-image {
-                        height: 100%;
-                        width: 100%;
+                        //height: 100%;
+                        //width: 100%;
+                        max-width: initial;
+                        height: 90vh;
+                        z-index: 5;
+                        position: fixed;
+                        top: 3vh;
+                        width: 48%;
                         img {
                             max-width: initial;
-                            height: 90vh;
+                            height: 100%;
                             z-index: 5;
-                            position: fixed;
+                            //position: fixed;
                         }
                     }
                 }
@@ -137,7 +143,6 @@
                     position: initial;
                     .section-name {
                         margin: 0;
-                        font-size: $subtitle-size;
                         letter-spacing: 0.2em;
                     }
                 }

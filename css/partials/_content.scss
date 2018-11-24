@@ -58,6 +58,10 @@
     }
 }
 
+.featured-image {
+    position: absolute;
+}
+
 #featured-image-1 {
     opacity: 1;
     animation: showAnim 15s infinite 0s ease-in-out;
