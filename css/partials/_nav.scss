@@ -3,20 +3,30 @@ nav {
     //position: fixed;
     height: 2.5em;
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
     .nav-content {
         position: relative;
         ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
             margin: 0;
             list-style: none;
             padding: 0;
             padding-right: 1.5em;
             li {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 text-transform: uppercase;
                 a {
@@ -24,6 +34,8 @@ nav {
                     color: $white;
                     text-decoration: none;
                     letter-spacing: $letter-spacing;
+                    -webkit-transition: color $transition-time-quick ease-in-out;
+                    -o-transition: color $transition-time-quick ease-in-out;
                     transition: color $transition-time-quick ease-in-out;
                     font-size: $p-size;
                     font-weight: $p-weight;

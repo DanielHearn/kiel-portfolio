@@ -2,17 +2,23 @@ $front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
-@supports ((clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and (object-fit: cover) {
+@supports (((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and ((-o-object-fit: cover) or (object-fit: cover))) {
     @media screen and (min-width: $mobile-break-width) and (min-height: 60em) {
         body .front-container {
             overflow: hidden;
             .front-menu {
                 height: 50vh;
+                -webkit-transition: width $transition-time-slow ease-in-out;
+                -o-transition: width $transition-time-slow ease-in-out;
                 transition: width $transition-time-slow ease-in-out;
                 .front-section {
                     display: block;
-                    justify-content: initial;
-                    align-items: initial;
+                    -webkit-box-pack: initial;
+                        -ms-flex-pack: initial;
+                            justify-content: initial;
+                    -webkit-box-align: initial;
+                        -ms-flex-align: initial;
+                            align-items: initial;
                     position: absolute;
                     height: 100%;
                     pointer-events: none;
@@ -24,7 +30,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         height: 100%;
                         background: $light-grey;
                         img {
-                            object-fit: cover;
+                            -o-object-fit: cover;
+                               object-fit: cover;
                             height: 100%;
                             width: 100%;
                         }
@@ -166,10 +173,12 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     &:hover {
                         z-index: 15;
                         img {
-                            filter: contrast(100%) brightness(100%);
+                            -webkit-filter: contrast(100%) brightness(100%);
+                                    filter: contrast(100%) brightness(100%);
                         }
                         .img {
-                            clip-path: none;
+                            -webkit-clip-path: none;
+                                    clip-path: none;
                         }
                         .section-name{
                             z-index: 20;

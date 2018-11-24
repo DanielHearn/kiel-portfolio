@@ -37,7 +37,8 @@
             right: $content-padding;
             .lg-arrow {
                 right: 25%;
-                transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
                 -webkit-transform: rotate(-45deg);
             }
         }
@@ -45,7 +46,8 @@
             left: $content-padding;
             .lg-arrow {
                 left: 25%;
-                transform: rotate(135deg);
+                -ms-transform: rotate(135deg);
+                    transform: rotate(135deg);
                 -webkit-transform: rotate(135deg);
             }
         }

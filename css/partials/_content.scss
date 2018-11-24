@@ -1,27 +1,45 @@
 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex: 1 auto;
-    flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     max-width: $max-width;
 }
 
 .box-shadow {
     -webkit-box-shadow: $box-shadow;
-    -moz-box-shadow: $box-shadow;
     box-shadow: $box-shadow;
 }
 
 .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     //flex: 1 auto;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding: $content-padding;
     @include fadein;
     .column {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex: 1;
-        flex-direction: column;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: $content-padding;
         .main-image {
             top: $content-padding-large;
@@ -50,9 +68,16 @@
             }
         }
         .column-footer {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             padding: $content-padding;
         }
     }
@@ -64,15 +89,18 @@
 
 #featured-image-1 {
     opacity: 1;
-    animation: showAnim 15s infinite 0s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 0s ease-in-out;
+            animation: showAnim 15s infinite 0s ease-in-out;
 }
 
 #featured-image-2 {
     opacity: 0;
-    animation: showAnim 15s infinite 5s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 5s ease-in-out;
+            animation: showAnim 15s infinite 5s ease-in-out;
 }
 
 #featured-image-3 {
     opacity: 0;
-    animation: showAnim 15s infinite 10s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 10s ease-in-out;
+            animation: showAnim 15s infinite 10s ease-in-out;
 }

@@ -1,3 +1,4 @@
 @mixin fadein {
-  animation: fadeinAnim $transition-time-slow ease-in-out;
+  -webkit-animation: fadeinAnim $transition-time-slow ease-in-out;
+          animation: fadeinAnim $transition-time-slow ease-in-out;
 }
