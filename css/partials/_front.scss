@@ -44,10 +44,12 @@
         width: 70%;
         margin-top: 10vh;
         .front-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            position: absolute;
             width: 100%;
-            //background: $grey;
+            position: relative;
             transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
             -webkit-user-select: none;
             -moz-user-select: none;

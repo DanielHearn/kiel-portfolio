@@ -2,15 +2,18 @@ $front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
-//@supports not(-ms-ime-align: auto) {
-@supports (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) and (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) and (object-fit: cheese) {
+@supports ((clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and (object-fit: cover) {
     @media screen and (min-width: $mobile-break-width) {
-        .front-container {
+        body .front-container {
             overflow: hidden;
             .front-menu {
                 height: 50vh;
                 transition: width $transition-time-slow ease-in-out;
                 .front-section {
+                    display: block;
+                    justify-content: initial;
+                    align-items: initial;
+                    position: absolute;
                     height: 100%;
                     pointer-events: none;
                     a {
