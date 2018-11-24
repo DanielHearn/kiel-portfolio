@@ -8,7 +8,7 @@
         flex-direction: row;
         padding: $content-padding;
         margin-bottom: $content-padding;
-        background: $grey;
+        background: $light-grey;
         min-height: 6em;
         .project-logo {
             width: 10em;
@@ -23,7 +23,7 @@
         }
         .project-desc {
             text-transform: uppercase;
-            background: $light-grey;
+            background: $grey;
             padding: $content-padding-small $content-padding;
             flex: 1;
         }

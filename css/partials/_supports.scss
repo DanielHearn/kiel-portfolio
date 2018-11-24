@@ -31,11 +31,11 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     }
                     .border-outer {
                         position: absolute;
-                        background: #343434;
+                        background: $grey;
                     }
                     .border-inner {
                         position: absolute;
-                        background: #3d3d3d;
+                        background: $light-grey;
                     }
                     .section-name {
                         position: absolute;

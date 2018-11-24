@@ -10,7 +10,7 @@ a {
     text-align: center;
     color: $white;
     text-transform: uppercase;
-    background: $grey;
+    background: $light-grey;
     padding: $content-padding $content-padding-large;
     transition: box-shadow $transition-time-slow ease-in-out;
     &.box-shadow:hover  {

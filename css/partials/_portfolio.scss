@@ -13,12 +13,12 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
         display: block;
         flex: 1 auto;
         margin: 0 $content-padding-small;
-        background: $light-grey;
+        background: $grey;
         padding: 0.5em 0 0 0.5em;
         -webkit-clip-path: $portfolio-item-clip-path;
         clip-path: $portfolio-item-clip-path;
         .portfolio-content {
-            background: $grey;
+            background: $light-grey;
             padding: $content-padding;
             -webkit-clip-path: $portfolio-content-clip-path;
             clip-path: $portfolio-content-clip-path;

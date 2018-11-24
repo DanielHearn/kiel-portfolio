@@ -3,8 +3,8 @@
 @charset "utf-8";
 
 $dark: #1e2124;
-$grey: #37383a;
-$light-grey: #2b2f33;
+$grey: #343434;
+$light-grey: #3d3d3d;
 $white: #efefef;
 $accent-dark: #c0a54d;
 $accent: #ddba46;
@@ -32,7 +32,7 @@ $max-width: 100em;
 
 $mobile-break-width: 70em;
 
-$box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $light-grey;
+$box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $grey;
 
 @import 'partials/normalize';
 @import 'partials/animations';
