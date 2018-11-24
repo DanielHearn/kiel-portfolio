@@ -3,7 +3,7 @@ $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
 @supports ((clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and (object-fit: cover) {
-    @media screen and (min-width: $mobile-break-width) {
+    @media screen and (min-width: $mobile-break-width) and (min-height: 60em) {
         body .front-container {
             overflow: hidden;
             .front-menu {
