@@ -73,10 +73,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         }
                         &:hover {
                             .section-name {
-                                display: none;
-                            }
-                            .about-box {
-                                display: block;
+                                top: -12%;
                             }
                         }
                     }
@@ -105,7 +102,11 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         }
                         &:hover{
                             .section-name {
-                                bottom: -12%;
+                                //bottom: -12%;
+                                display: none;
+                            }
+                            .about-box {
+                                display: block;
                             }
                         }
                     }
