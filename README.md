@@ -2,4 +2,10 @@
 
 Todo:
 
-Width on front-section for triangles as broken on firefox
+- Improve css to improve compatibility
+- Test safari
+- Fix safari
+- Test firefox
+- Fix firefox
+- Test edge
+- Fix edge

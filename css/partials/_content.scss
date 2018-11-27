@@ -28,6 +28,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
     padding: $content-padding;
+    max-width: $max-width;
     @include fadein;
     .column {
         display: -webkit-box;
