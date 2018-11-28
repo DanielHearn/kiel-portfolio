@@ -48,6 +48,9 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     .section-name {
                         position: absolute;
                         text-align: center;
+                        p {
+                            margin: 0;
+                        }
                     }
                     &.triangle-top {
                         .border-outer {
