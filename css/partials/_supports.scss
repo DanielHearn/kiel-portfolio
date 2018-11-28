@@ -48,6 +48,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     .section-name {
                         position: absolute;
                         text-align: center;
+                        height: initial;
+                        width: initial;
                         p {
                             margin: 0;
                         }
