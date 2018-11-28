@@ -74,6 +74,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name {
                             top: 15%;
                             width: 100%;
+                            pointer-events: none;
                         }
                         &:hover {
                             .section-name {
