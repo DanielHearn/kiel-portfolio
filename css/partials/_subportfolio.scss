@@ -18,6 +18,10 @@
         height: 20em;
         cursor: pointer;
         margin: $content-padding-small;
+        -webkit-transition: -webkit-box-shadow $transition-time-slow ease-in-out;
+        transition: -webkit-box-shadow $transition-time-slow ease-in-out;
+        -o-transition: box-shadow $transition-time-slow ease-in-out;
+        transition: box-shadow $transition-time-slow ease-in-out;
         img {
             max-width: 100%;
             z-index: 1;
@@ -30,6 +34,9 @@
         }
         .caption {
             display: none;
+        }
+        &:hover {
+            box-shadow: none;
         }
     }   
 }

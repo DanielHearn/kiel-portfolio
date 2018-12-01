@@ -16,7 +16,6 @@ a {
     transition: -webkit-box-shadow $transition-time-slow ease-in-out;
     -o-transition: box-shadow $transition-time-slow ease-in-out;
     transition: box-shadow $transition-time-slow ease-in-out;
-    transition: box-shadow $transition-time-slow ease-in-out, -webkit-box-shadow $transition-time-slow ease-in-out;
     &.box-shadow:hover  {
         -webkit-box-shadow: none;
                 box-shadow: none;
