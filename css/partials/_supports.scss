@@ -212,6 +212,14 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     }
                 }
             }
+            .subportfolio-grid {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .subportfolio-item {
+                    flex: 1 auto;
+                }
+            }
         }
     }
 }
