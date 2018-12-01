@@ -197,3 +197,21 @@ $front-spacing-xsmall: $front-spacing-small / 2;
         }
     }
 }
+
+@supports not (display: grid) {
+    body {
+        .main {
+            .column {
+                .column-content {
+                    .portfolio-grid {
+                        display: flex;
+                        flex-direction: column;
+                        .portfolio-item {
+                            margin: 1em 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
