@@ -205,9 +205,11 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                 .column-content {
                     .portfolio-grid {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
+                        flex-wrap: wrap;
                         .portfolio-item {
-                            margin: 1em 0;
+                            margin: 1em;
+                            width: calc(50% - 2em);
                         }
                     }
                 }
@@ -229,6 +231,15 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                 .subportfolio-grid {
                     .subportfolio-item {
                         width: calc(50% - 1em);
+                    }
+                }
+                .column {
+                    .column-content {
+                        .portfolio-grid {
+                            .portfolio-item {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }
