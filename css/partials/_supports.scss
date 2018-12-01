@@ -217,7 +217,30 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                 flex-direction: row;
                 flex-wrap: wrap;
                 .subportfolio-item {
-                    flex: 1 auto;
+                    width: calc(33% - 1em);
+                    flex: initial;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $mobile-break-width) { 
+        body {
+            .main {
+                .subportfolio-grid {
+                    .subportfolio-item {
+                        width: calc(50% - 1em);
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $mobile-break-width/2) { 
+        body {
+            .main {
+                .subportfolio-grid {
+                    .subportfolio-item {
+                        width: 100%;
+                    }
                 }
             }
         }
