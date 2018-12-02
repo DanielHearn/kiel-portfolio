@@ -7,7 +7,7 @@ portfolio_piece:
   - title: Piece 1
     image: /images/uploads/L2_Fort_Desolation.jpg
     is_youtube: false
-  - title: Soldier and Death- Hero Ship Orthographic
+  - title: 'Soldier and Death: Hero Ship Orthographic'
     image: /images/uploads/talovka-orth.jpg
 ---
 
