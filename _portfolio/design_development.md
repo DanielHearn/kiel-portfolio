@@ -16,7 +16,7 @@ portfolio_piece:
   - is_youtube: true
     title: Youtube 1
     youtube_link: 'https://www.youtube.com/watch?v=Bey4XXJAqS8'
-  - title: Hero Ship Iterations
+  - title: 'Soldier and Death: Hero Ship Iterations'
     image: /images/uploads/Talovka_3.jpg
   - title: This is a title
     image: /images/uploads/7_Space_Background_a.jpg
