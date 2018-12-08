@@ -47,6 +47,9 @@
             overflow: hidden;
             position: -webkit-sticky;
             position: sticky;
+            img {
+                top: 0;
+            }
         }
         .header {
             padding: $content-padding;
