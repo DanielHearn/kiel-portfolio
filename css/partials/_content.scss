@@ -91,18 +91,18 @@
 
 #featured-image-1 {
     opacity: 1;
-    //-webkit-animation: showAnim 15s infinite 0s ease-in-out;
-    //        animation: showAnim 15s infinite 0s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 0s ease-in-out;
+            animation: showAnim 15s infinite 0s ease-in-out;
 }
 
 #featured-image-2 {
     opacity: 0;
-    //-webkit-animation: showAnim 15s infinite 5s ease-in-out;
-    ///        animation: showAnim 15s infinite 5s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 5s ease-in-out;
+            animation: showAnim 15s infinite 5s ease-in-out;
 }
 
 #featured-image-3 {
     opacity: 0;
-    //-webkit-animation: showAnim 15s infinite 10s ease-in-out;
+    -webkit-animation: showAnim 15s infinite 10s ease-in-out;
             animation: showAnim 15s infinite 10s ease-in-out;
 }
