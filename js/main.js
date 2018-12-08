@@ -36,3 +36,10 @@ if (document.querySelector('.subportfolio-grid')) {
     autoplay: false
   })
 }
+
+// Add ie class
+const msie = window.document.documentMode
+
+if (msie <= 11) {
+  document.querySelector('body').classList.add('ie')
+}

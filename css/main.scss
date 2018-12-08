@@ -93,3 +93,32 @@ p {
 img {
     max-width: 100%;
 }
+
+body.ie {
+    .front-container {
+        .front-menu-container {
+            .front-menu {
+                overflow: hidden;
+                display: block;
+                .front-section {
+                    display: block;
+                    .section-name {
+                        background: rgba(0, 0, 0, 0.2);
+                    }
+                    .img {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .content .main {
+        .column {
+            .main-image {
+                img {
+                    height: auto;
+                }
+            }
+        }
+    }
+}
