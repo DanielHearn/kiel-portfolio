@@ -74,6 +74,7 @@
                     padding-bottom: $content-padding-large;
                     .main-image {
                         overflow: unset;
+                        position: relative;
                         .featured-image {
                             position: absolute;
                             top: 0;
