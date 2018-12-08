@@ -215,7 +215,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         grid-column-gap: $content-padding;
                         .portfolio-item {
                             margin: 0 $content-padding-small;
-                            width: initial;
+                            width: 100%;
                         }
                     }
                 }
@@ -255,7 +255,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
     @media screen and (max-width: $mobile-break-width/2) { 
         body {
             .content .main {
-                .portfolio-grid {
+                .column .column-content .portfolio-grid {
                     -ms-grid-columns: (1fr)[1];
                         grid-template-columns: repeat(1, 1fr);
                 }

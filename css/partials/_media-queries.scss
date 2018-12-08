@@ -83,7 +83,7 @@
                     .column-content {
                         .portfolio-grid {
                             .portfolio-item {
-                                width: 100%;
+                                width: calc(50% - 2em);
                             }
                         }
                     }
@@ -185,9 +185,13 @@
             padding: 0;
         }
         .content .main {
-            .portfolio-item {
-                margin: 0;
-                width: 100%;
+            .column .column-content {
+                .portfolio-grid {
+                    margin: 0;
+                    .portfolio-item {
+                        width: 100%;
+                    }
+                }
             }
             .subportfolio-grid {
                 .subportfolio-item {
