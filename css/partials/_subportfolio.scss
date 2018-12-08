@@ -1,21 +1,14 @@
 .subportfolio-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    row-gap: $content-padding;
-    grid-row-gap: $content-padding;
-    -webkit-column-gap: $content-padding;
-            column-gap: $content-padding;
-    grid-column-gap: $content-padding;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: $content-padding;
     .subportfolio-item {
-        -webkit-box-flex: 1;
-            -ms-flex: 1;
-                flex: 1;   
         overflow: hidden;
         position: relative;
         height: 20em;
+        width: calc(33% - 1em);
+        flex: initial;
         cursor: pointer;
         margin: $content-padding-small;
         -webkit-transition: -webkit-box-shadow $transition-time-slow ease-in-out;

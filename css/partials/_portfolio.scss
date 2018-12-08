@@ -3,25 +3,20 @@ $portfolio-content-clip-path: polygon(0% $content-padding-large, $content-paddin
 $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 100% 0, 100% 100%, 0 100%);
 
 .portfolio-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    row-gap: $content-padding-large;
-    grid-row-gap: $content-padding-large;
-    -webkit-column-gap: $content-padding;
-            column-gap: $content-padding;
-    grid-column-gap: $content-padding;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     .portfolio-item {
         display: block;
         -webkit-box-flex: 1;
             -ms-flex: 1 auto;
                 flex: 1 auto;
-        margin: 0 $content-padding-small;
         background: $grey;
         padding: 0.5em 0 0 0.5em;
         -webkit-clip-path: $portfolio-item-clip-path;
         clip-path: $portfolio-item-clip-path;
+        margin: 1em;
+        width: calc(50% - 2em);
         .portfolio-content {
             background: $light-grey;
             padding: $content-padding;
