@@ -44,19 +44,6 @@
         }
     }
     body {
-        &.menu-active {
-            overflow: hidden;
-            height: 100%;
-            #overlay {
-           
-                display: block;
-                visibility: visible;
-                opacity: 100;
-            }
-            #overlay-button.mobile-about-button {
-                display: block;
-            }
-        }
         #overlay-button {
             display: block;
             &.mobile-about-button {

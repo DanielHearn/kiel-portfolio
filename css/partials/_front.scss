@@ -122,7 +122,6 @@
                 -webkit-transition: -webkit-filter $transition-time-slow ease-in-out;
                 transition: -webkit-filter $transition-time-slow ease-in-out;
                 -o-transition: filter $transition-time-slow ease-in-out;
-                transition: filter $transition-time-slow ease-in-out;
                 transition: filter $transition-time-slow ease-in-out, -webkit-filter $transition-time-slow ease-in-out;
             }
         }
