@@ -29,6 +29,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     .img {
                         position: absolute;
                         height: 100%;
+                        width: 100%;
                         background: $light-grey;
                         img {
                             -o-object-fit: cover;
