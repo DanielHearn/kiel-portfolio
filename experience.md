@@ -3,9 +3,9 @@ layout: experience
 title: 'Experience, Projects and Clients'
 image: /images/uploads/7_Space_Background_a.jpg
 projects:
-  - description: Description for project 1
-    logo: /images/uploads/L2_Fort_Desolation.jpg
-    title: Project 1
+  - description: BA Hons in Concept Art (2016-2019)
+    logo: /images/uploads/bike.jpg
+    title: Teesside University
   - description: Description for project 2
     logo: /images/uploads/Talovka_3.jpg
     title: Project 2
