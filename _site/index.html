@@ -82,6 +82,14 @@
 
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
+      // Add ie class
+      const msie = window.document.documentMode
+
+      if (msie <= 11) {
+        document.querySelector('body').classList.add('ie')
+      }
+    </script> 
+    <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", function(user) {
             if (!user) {
