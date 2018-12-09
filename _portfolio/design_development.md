@@ -18,9 +18,5 @@ portfolio_piece:
     is_youtube: false
   - title: This is a title
     image: /images/uploads/7_Space_Background_a.jpg
-  - title: Title
-    image: /images/uploads/L2_Fort_Desolation.jpg
-  - title: Example piece
-    image: /images/uploads/bike.jpg
 ---
 
