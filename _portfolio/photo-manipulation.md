@@ -1,10 +1,10 @@
 ---
 layout: portfolio-sub
 title: Photo Manipulation
-image: /images/uploads/Talovka_3.jpg
+image: /images/uploads/L2_Fort_Desolation.jpg
 order: 3
 portfolio_piece:
-  - title: Piece 1
-    image: /images/uploads/Talovka_3.jpg
+  - title: 'Photobash- Fort Desolation '
+    image: /images/uploads/L2_Fort_Desolation.jpg
 ---
 
