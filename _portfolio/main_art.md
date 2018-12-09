@@ -4,8 +4,8 @@ title: Main Art
 image: /images/uploads/bike.jpg
 order: 1
 portfolio_piece:
-  - title: Piece 1
-    image: /images/uploads/L2_Fort_Desolation.jpg
+  - title: ''
+    image: /images/uploads/10-final-image-4.jpg
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Orthographic'
     image: /images/uploads/talovka-orth.jpg
