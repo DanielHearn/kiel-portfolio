@@ -3,7 +3,7 @@ $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
 @supports (((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and ((-o-object-fit: cover) or (object-fit: cover))) {
-    @media screen and (min-width: $mobile-break-width) and (min-height: 60em) {
+    @media screen and (min-width: $mobile-break-width) and (min-height: 50em) {
         body .front-container {
             overflow: hidden;
             .front-menu {
@@ -107,6 +107,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name {
                             bottom: 15%;
                             width: 100%;
+                            pointer-events: none;
                         }
                         &:hover{
                             .section-name {
