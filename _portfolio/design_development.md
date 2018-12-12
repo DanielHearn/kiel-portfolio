@@ -7,9 +7,13 @@ portfolio_piece:
   - title: F505 Starfighter Design
     image: /images/uploads/8-fighter-design-a.jpg
     is_youtube: false
-  - title: Vehicle Design Iterations
+  - title: Neo Racer Vehicle Design Iterations
     image: /images/uploads/3-veh-devs-2.jpg
     is_youtube: false
+  - title: Neo Racer Vehicle Colour Iterations
+    image: /images/uploads/4-col.jpg
+  - title: Neo Racer Composition Sketches
+    image: /images/uploads/2.comp2ab.jpg
   - title: Ratchet and Clank-Inspired Character Design
     image: /images/uploads/9-armour-des-3-choose-a.jpg
     is_youtube: false
