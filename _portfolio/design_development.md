@@ -20,5 +20,7 @@ portfolio_piece:
     image: /images/uploads/weapons-2b.png
   - title: 'Soldier and Death: Devil Ship'
     image: /images/uploads/devil-one.jpg
+  - title: Environment Thumbnails
+    image: /images/uploads/7.environment-it1.png
 ---
 
