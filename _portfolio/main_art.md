@@ -15,5 +15,7 @@ portfolio_piece:
     image: /images/uploads/Poster.jpg
   - title: 'Soldier and Death: Decals'
     image: /images/uploads/derelict-signs.jpg
+  - title: Hittite Biker
+    image: /images/uploads/bike.jpg
 ---
 
