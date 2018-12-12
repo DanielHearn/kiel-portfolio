@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Animatics
-image: /images/uploads/Poster.jpg
+image: /images/uploads/anisad2.jpg
 order: 4
 portfolio_piece:
   - title: Battle of Polyphlax
