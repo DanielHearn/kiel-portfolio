@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Main Art
-image: /images/uploads/bike.jpg
+image: /images/uploads/14-final-i-image-b.jpg
 order: 1
 portfolio_piece:
   - title: Character Promo Piece
