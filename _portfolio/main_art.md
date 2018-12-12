@@ -13,5 +13,7 @@ portfolio_piece:
     image: /images/uploads/talovka-orth.jpg
   - title: 'Soldier and Death: Poster'
     image: /images/uploads/Poster.jpg
+  - title: 'Soldier and Death: Decals'
+    image: /images/uploads/derelict-signs.jpg
 ---
 
