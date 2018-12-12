@@ -4,6 +4,8 @@ title: Main Art
 image: /images/uploads/bike.jpg
 order: 1
 portfolio_piece:
+  - title: Character Promo Piece
+    image: /images/uploads/14-final-i-image-b.jpg
   - title: ''
     image: /images/uploads/10-final-image-4.jpg
     is_youtube: false
