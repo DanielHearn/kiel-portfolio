@@ -16,10 +16,6 @@ portfolio_piece:
   - title: 'Soldier and Death: Hero Ship Iterations'
     image: /images/uploads/Talovka_3.jpg
     is_youtube: false
-  - title: Space Background
-    image: /images/uploads/7_Space_Background_a.jpg
-  - title: 'Soldier and Death: Decals'
-    image: /images/uploads/derelict-signs.jpg
   - title: 'Soldier and Death: Weapon Developments'
     image: /images/uploads/weapons-2b.png
 ---
