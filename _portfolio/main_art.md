@@ -11,6 +11,8 @@ portfolio_piece:
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Orthographic'
     image: /images/uploads/talovka-orth.jpg
+  - title: 'Soldier and Death: Hero Ship'
+    image: /images/uploads/talovka-10.jpg
   - title: 'Soldier and Death: Poster'
     image: /images/uploads/Poster.jpg
   - title: 'Soldier and Death: Decals'
