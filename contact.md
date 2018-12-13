@@ -3,9 +3,6 @@ layout: contact
 title: Contact Me
 image: /images/uploads/Talovka_3.jpg
 ---
+If you want to get in touch, send me an email: 
 
-This is the contact page text.
-
-Some random text and stuff.
-
-**Email: email@email.com**
+**Email: Kiel.frampton@outlook.com**
