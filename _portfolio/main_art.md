@@ -6,8 +6,8 @@ order: 1
 portfolio_piece:
   - title: Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
-  - title: ''
-    image: /images/uploads/10-final-image-4.jpg
+  - title: Destruction of the UEL Battlestorm
+    image: /images/uploads/10-final-image-4-with-logo.jpg
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Orthographic'
     image: /images/uploads/talovka-orth.jpg
