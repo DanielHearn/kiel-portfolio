@@ -19,5 +19,11 @@ portfolio_piece:
     image: /images/uploads/derelict-signs.jpg
   - title: Hittite Biker
     image: /images/uploads/bike.jpg
+  - title: 'Neo Racer Vehicle Turnaround '
+    image: /images/uploads/5-turnaround-d-l.jpg
+  - title: Neo Racer Vehicle
+    image: /images/uploads/final-vehicle-2-l.jpg
+  - title: Neo Racer Character
+    image: /images/uploads/final-character-2-b.jpg
 ---
 
