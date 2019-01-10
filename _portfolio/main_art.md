@@ -15,7 +15,7 @@ portfolio_piece:
     image: /images/uploads/talovka-10.jpg
   - title: 'Soldier and Death: Poster'
     image: /images/uploads/Poster.jpg
-  - title: 'Soldier and Death: Decals'
+  - title: 'Soldier and Death: Signage'
     image: /images/uploads/derelict-signs.jpg
   - title: Hittite Biker
     image: /images/uploads/bike.jpg
