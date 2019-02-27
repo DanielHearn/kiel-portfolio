@@ -13,6 +13,7 @@ about_text: >-
   interactive media or print projects.
 experience_image: /images/uploads/10-final-image-4.jpg
 portfolio_image: /images/uploads/14-final-i-image-b.jpg
-contact_image: /images/uploads/4-col.jpg
+contact_image: >-
+  https://raw.githubusercontent.com/DanielHearn/kiel-portfolio/master/images/uploads/5-turnaround-d-l.jpg
 ---
 
