@@ -13,6 +13,6 @@ about_text: >-
   interactive media or print projects.
 experience_image: /images/uploads/10-final-image-4-with-logo.jpg
 portfolio_image: /images/uploads/14-final-i-image-b.jpg
-contact_image: /images/uploads/58-endgame-armour-final.jpg
+contact_image: /images/uploads/dropship-3.jpg
 ---
 
