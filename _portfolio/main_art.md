@@ -58,5 +58,8 @@ portfolio_piece:
   - title: Otherworlder Dropship Cross-Section
     image: /images/uploads/dropship-4.jpg
     is_youtube: false
+  - title: Otherworlder Dropship Orthographic
+    image: /images/uploads/dropship-3.jpg
+    is_youtube: false
 ---
 
