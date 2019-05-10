@@ -7,7 +7,7 @@ portfolio_piece:
   - title: Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
     is_youtube: false
-  - title: Destruction of the UEL Battlestorm
+  - title: Space Battle Climax
     image: /images/uploads/10-final-image-4-with-logo.jpg
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Orthographic'
