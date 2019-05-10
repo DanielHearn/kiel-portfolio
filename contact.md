@@ -7,6 +7,6 @@ If you would like to get in touch, send me an email:
 
 **Kiel.frampton@outlook.com**
 
-Or message me on Linkedin:
+Or message me on LinkedIn:
 
 **linkedin.com/in/kiel-frampton**
