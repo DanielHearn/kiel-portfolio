@@ -3,7 +3,7 @@ layout: index
 title: Home
 page_title: Kiel Frampton
 heading: Concept Art
-about_image: /images/uploads/ship-battle-2.jpg
+about_image: /images/uploads/10-final-image-4-with-logo.jpg
 about_text: >-
   Final Year Concept Art Student at Teesside University, with an educational
   background in fine art, media and product design. I have been passionate about
@@ -11,8 +11,8 @@ about_text: >-
   livelihood.  I enjoy exploring all aspects of the entertainment industry to
   support and improve my work and am open to working on moving image,
   interactive media or print projects.
-experience_image: /images/uploads/10-final-image-4-with-logo.jpg
+experience_image: /images/uploads/dropship-3.jpg
 portfolio_image: /images/uploads/14-final-i-image-b.jpg
-contact_image: /images/uploads/dropship-3.jpg
+contact_image: /images/uploads/ship-battle-2.jpg
 ---
 
