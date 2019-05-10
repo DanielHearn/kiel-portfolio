@@ -31,9 +31,6 @@ portfolio_piece:
   - title: 'Soldier and Death: Signage'
     image: /images/uploads/derelict-signs.jpg
     is_youtube: false
-  - title: Hittite Biker
-    image: /images/uploads/bike.jpg
-    is_youtube: false
   - title: 'Neo Racer Vehicle Turnaround '
     image: /images/uploads/5-turnaround-d-l.jpg
     is_youtube: false
