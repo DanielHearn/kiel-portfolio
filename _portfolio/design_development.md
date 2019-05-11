@@ -31,5 +31,26 @@ portfolio_piece:
   - title: 'Soldier and Death: Devil Ship'
     image: /images/uploads/devil-one.jpg
     is_youtube: false
+  - title: 'Riftblade: Endgame Armour'
+    image: /images/uploads/58-endgame-armour-final.jpg
+    is_youtube: false
+  - title: 'Riftblade: Fantasy Soldier'
+    image: /images/uploads/barvish-soldiersa.jpg
+    is_youtube: false
+  - title: 'Riftblade: Sci-fi Soldier'
+    image: /images/uploads/otherworlder-soldiersa.jpg
+    is_youtube: false
+  - title: 'Riftblade: Dropship'
+    image: /images/uploads/dropship-2.jpg
+    is_youtube: false
+  - title: 'Riftblade: Dropship Orthographic'
+    image: /images/uploads/dropship-3.jpg
+    is_youtube: false
+  - title: 'Rfitblade: Dropship Cross-Section'
+    image: /images/uploads/dropship-4.jpg
+    is_youtube: false
+  - title: 'Riftblade: Royal Palace'
+    image: /images/uploads/palace.jpg
+    is_youtube: false
 ---
 
