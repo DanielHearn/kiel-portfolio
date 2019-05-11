@@ -4,7 +4,7 @@ title: Design Development
 image: /images/uploads/58-endgame-armour-final.jpg
 order: 2
 portfolio_piece:
-  - title: The Riftblade
+  - title: 'Riftblade: The Riftblade'
     image: /images/uploads/riftblade-1.jpg
     is_youtube: false
   - title: 'Riftblade: Endgame Armour'
@@ -22,7 +22,7 @@ portfolio_piece:
   - title: 'Rfitblade: Dropship Cross-Section'
     image: /images/uploads/dropship-4.jpg
     is_youtube: false
-  - title: Otherworlder Weapons
+  - title: 'Riftblade: Otherworlder Weapons'
     image: /images/uploads/otherworlder-guns.jpg
     is_youtube: false
   - title: 'Soldier and Death: Weapon Developments'
@@ -34,7 +34,7 @@ portfolio_piece:
   - title: 'Neo-Racer: Vehicle Colour Iterations'
     image: /images/uploads/4-col.jpg
     is_youtube: false
-  - title: Ratchet and Clank-Inspired Character Design
+  - title: Insomniac-Inspired Character Design
     image: /images/uploads/9-armour-des-3-choose-a.jpg
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Iterations'
