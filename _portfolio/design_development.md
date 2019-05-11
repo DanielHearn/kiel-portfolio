@@ -4,6 +4,9 @@ title: Design Development
 image: /images/uploads/58-endgame-armour-final.jpg
 order: 2
 portfolio_piece:
+  - title: 'Riftblade: Endgame Armour'
+    image: /images/uploads/58-endgame-armour-final.jpg
+    is_youtube: false
   - title: The Riftblade
     image: /images/uploads/riftblade-1.jpg
     is_youtube: false
@@ -12,9 +15,6 @@ portfolio_piece:
     is_youtube: false
   - title: 'Soldier and Death: Weapon Developments'
     image: /images/uploads/weapons-2b.png
-    is_youtube: false
-  - title: 'Neo-Racer: Vehicle Design Iterations'
-    image: /images/uploads/3-veh-devs-2.jpg
     is_youtube: false
   - title: 'Neo-Racer: Vehicle Colour Iterations'
     image: /images/uploads/4-col.jpg
@@ -30,9 +30,6 @@ portfolio_piece:
     is_youtube: false
   - title: 'Soldier and Death: Devil Ship'
     image: /images/uploads/devil-one.jpg
-    is_youtube: false
-  - title: 'Riftblade: Endgame Armour'
-    image: /images/uploads/58-endgame-armour-final.jpg
     is_youtube: false
   - title: 'Riftblade: Fantasy Soldier'
     image: /images/uploads/barvish-soldiersa.jpg
