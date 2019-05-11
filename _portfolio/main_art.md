@@ -13,7 +13,7 @@ portfolio_piece:
   - title: Boss Battle
     image: /images/uploads/final-battle-1a.jpg
     is_youtube: false
-  - title: Character Promo Piece
+  - title: Insomniac Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
     is_youtube: false
   - title: Space Battle Climax
