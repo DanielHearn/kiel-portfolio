@@ -4,20 +4,14 @@ title: Design Development
 image: /images/uploads/58-endgame-armour-final.jpg
 order: 2
 portfolio_piece:
-  - title: 'Riftblade: Endgame Armour'
-    image: /images/uploads/58-endgame-armour-final.jpg
-    is_youtube: false
   - title: The Riftblade
     image: /images/uploads/riftblade-1.jpg
     is_youtube: false
-  - title: Otherworlder Weapons
-    image: /images/uploads/otherworlder-guns.jpg
+  - title: 'Riftblade: Endgame Armour'
+    image: /images/uploads/58-endgame-armour-final.jpg
     is_youtube: false
   - title: 'Riftblade: Royal Palace'
     image: /images/uploads/palace.jpg
-    is_youtube: false
-  - title: 'Soldier and Death: Weapon Developments'
-    image: /images/uploads/weapons-2b.png
     is_youtube: false
   - title: 'Riftblade: Dropship'
     image: /images/uploads/dropship-2.jpg
@@ -27,6 +21,12 @@ portfolio_piece:
     is_youtube: false
   - title: 'Rfitblade: Dropship Cross-Section'
     image: /images/uploads/dropship-4.jpg
+    is_youtube: false
+  - title: Otherworlder Weapons
+    image: /images/uploads/otherworlder-guns.jpg
+    is_youtube: false
+  - title: 'Soldier and Death: Weapon Developments'
+    image: /images/uploads/weapons-2b.png
     is_youtube: false
   - title: 'Neo-Racer: Composition Sketches'
     image: /images/uploads/2.comp2ab.jpg
