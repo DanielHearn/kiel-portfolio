@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Design Development
-image: /images/uploads/Talovka_3.jpg
+image: /images/uploads/58-endgame-armour-final.jpg
 order: 2
 portfolio_piece:
   - title: The Riftblade
@@ -22,9 +22,6 @@ portfolio_piece:
   - title: 'Neo-Racer: Composition Sketches'
     image: /images/uploads/2.comp2ab.jpg
     is_youtube: false
-  - title: F505 Starfighter Design
-    image: /images/uploads/8-fighter-design-a.jpg
-    is_youtube: false
   - title: Ratchet and Clank-Inspired Character Design
     image: /images/uploads/9-armour-des-3-choose-a.jpg
     is_youtube: false
@@ -33,9 +30,6 @@ portfolio_piece:
     is_youtube: false
   - title: 'Soldier and Death: Devil Ship'
     image: /images/uploads/devil-one.jpg
-    is_youtube: false
-  - title: Environment Thumbnails
-    image: /images/uploads/7.environment-it1.png
     is_youtube: false
 ---
 
