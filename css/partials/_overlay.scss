@@ -82,7 +82,7 @@ body {
 #overlay-button {
   position: fixed;
   right: $content-padding-small;
-  top: $content-padding-small;
+  top: 0;
   padding: 1.1em 0.5em;
   z-index: 25;
   cursor: pointer;
