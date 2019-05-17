@@ -105,12 +105,15 @@
                             height: initial;
                         }
                     }
-                }
+                }           
                 .subportfolio-grid {
                     .subportfolio-item {
                         width: calc(50% - 1em);
                     }
                 }
+                &.subportfolio {
+                    padding-left: $content-padding/2;
+                }     
             }
         }
         .lg {
