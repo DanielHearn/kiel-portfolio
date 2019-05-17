@@ -2,6 +2,14 @@ $front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
+@supports (height: min-content) {
+    body {
+        .front-container .front-menu .about-box {
+            height: min-content;
+        }
+    }
+}
+
 @supports (((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and ((-o-object-fit: cover) or (object-fit: cover))) {
     @media screen and (min-width: $mobile-break-width) and (min-height: 50em) {
         body .front-container {
@@ -216,7 +224,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                                 column-gap: $content-padding;
                         grid-column-gap: $content-padding;
                         .portfolio-item {
-                            margin: 0 $content-padding-small;
+                            margin: 0 $content-padding-small 0 0;
                             width: 100%;
                         }
                     }

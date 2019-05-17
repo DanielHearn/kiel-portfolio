@@ -37,7 +37,7 @@ nav {
                     -webkit-transition: color $transition-time-quick ease-in-out;
                     -o-transition: color $transition-time-quick ease-in-out;
                     transition: color $transition-time-quick ease-in-out;
-                    font-size: $p-size;
+                    font-size: $nav-link-size;
                     font-weight: $p-weight;
                     &.active {
                         color: $accent;
