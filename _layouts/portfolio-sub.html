@@ -23,16 +23,16 @@ layout: base
 <div id="overlay">
     <ul>
         <li>
-        <a href="/">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-        <a href="/portfolio">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-        <a href="/contact">Contact</a>
+            <a href="/contact">Contact</a>
         </li>
         <li>
-        <a href="/experience">Experience</a>
+            <a href="/experience">Experience</a>
         </li>
     </ul>
 </div>
@@ -42,28 +42,22 @@ layout: base
 <section class="main">
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
-            <a class="subportfolio-item box-shadow" 
-                data-is-youtube="{{ piece.is_youtube }}" 
-                {% if piece.youtube_link %}
-                    href="{{ piece.youtube_link }}" 
-                {% else %}
-                    href="{{ piece.image }}" 
-                {% endif %}
-                data-sub-html=".caption">
-                {% if piece.image %}
-                    <img src="{{ piece.image }}" alt="{{ piece.title }}">
-                {% else %}
-                    {% assign id = piece.youtube_link | split: '?v=' %}
-                    {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append:  id[1] | append: "/hqdefault.jpg" %}
-                    <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
-                {% endif %}
-                <div class="caption">
-                    <h4>{{ piece.title }}</h4>
-                </div>
-             </a>
+        <a class="subportfolio-item box-shadow" data-is-youtube="{{ piece.is_youtube }}" {% if piece.youtube_link %}
+            href="{{ piece.youtube_link }}" {% else %} href="{{ piece.image }}" {% endif %} data-sub-html=".caption">
+            {% if piece.image %}
+            <img src="{{ piece.image }}" alt="{{ piece.title }}">
+            {% else %}
+            {% assign id = piece.youtube_link | split: '?v=' %}
+            {% assign youtubeThumbnail = "https://img.youtube.com/vi/" | append:  id[1] | append: "/hqdefault.jpg" %}
+            <img src="{{ youtubeThumbnail }}" alt="{{ piece.title }}">
+            {% endif %}
+            <div class="caption">
+                <h4>{{ piece.title }}</h4>
+            </div>
+        </a>
         {% endfor %}
     </div>
     <script src="/js/lightgallery.min.js"></script>
     <!-- lightgallery plugins -->
     <script src="/js/lg-video.min.js"></script>
-<section>
+    <section>

@@ -8,32 +8,32 @@ artstation_link: http://www.artstation.com
         <ul>
             <li>
                 <a href="/">Home</a>
-                </li>
-                <li>
+            </li>
+            <li>
                 <a href="/portfolio" class="active">Portfolio</a>
-                </li>
-                <li>
+            </li>
+            <li>
                 <a href="/contact">Contact</a>
-                </li>
-                <li>
+            </li>
+            <li>
                 <a href="/experience">Experience</a>
-                </li>
+            </li>
         </ul>
     </div>
 </nav>
 <div id="overlay">
     <ul>
         <li>
-        <a href="/">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-        <a href="/portfolio" class="active">Portfolio</a>
+            <a href="/portfolio" class="active">Portfolio</a>
         </li>
         <li>
-        <a href="/contact">Contact</a>
+            <a href="/contact">Contact</a>
         </li>
         <li>
-        <a href="/experience">Experience</a>
+            <a href="/experience">Experience</a>
         </li>
     </ul>
 </div>
@@ -46,14 +46,15 @@ artstation_link: http://www.artstation.com
             <div class="portfolio-grid">
                 {% assign portfolio_list = site.portfolio | sort: 'order' %}
                 {% for portfolio in portfolio_list %}
-                    <a class="portfolio-item" href="{{ portfolio.url }}">
-                        <div class="portfolio-content">
-                            <div class="portfolio-image"  style="background-image: url('{{ site.baseurl }}{{ portfolio.image }}');"></div>
-                            <div class="portfolio-title">
-                                <p>{{ portfolio.title }}</p>
-                            </div>
+                <a class="portfolio-item" href="{{ portfolio.url }}">
+                    <div class="portfolio-content">
+                        <div class="portfolio-image"
+                            style="background-image: url('{{ site.baseurl }}{{ portfolio.image }}');"></div>
+                        <div class="portfolio-title">
+                            <p>{{ portfolio.title }}</p>
                         </div>
-                    </a>
+                    </div>
+                </a>
                 {% endfor %}
             </div>
         </div>
@@ -64,14 +65,21 @@ artstation_link: http://www.artstation.com
     <div class="column">
         <div class="main-image portfolio-images">
             {% if page.image_1 %}
-                <img id="featured-image-1" class="featured-image" src="{{ page.image_1 }}" alt="">
+            <a id="featured-image-1" class="featured-image" href="{{ page.image_1 }}">
+                <img src="{{ page.image_1 }}" alt="">
+            </a>
             {% endif %}
             {% if page.image_2 %}
-                <img id="featured-image-2" class="featured-image" src="{{ page.image_2 }}" alt="">
+            <a id="featured-image-2" class="featured-image" href="{{ page.image_2 }}">
+                <img src="{{ page.image_2 }}" alt="">
+            </a>
             {% endif %}
             {% if page.image_3 %}
-                <img id="featured-image-3" class="featured-image" src="{{ page.image_3 }}" alt="">
+            <a id="featured-image-3" class="featured-image" href="{{ page.image_3 }}">
+                <img src="{{ page.image_3 }}" alt="">
+            </a>
             {% endif %}
         </div>
     </div>
+    <script src="/js/lightgallery.min.js"></script>
 </section>

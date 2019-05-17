@@ -23,16 +23,16 @@ layout: base
 <div id="overlay">
     <ul>
         <li>
-        <a href="/">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-        <a href="/portfolio">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-        <a href="/contact" class="active">Contact</a>
+            <a href="/contact" class="active">Contact</a>
         </li>
         <li>
-        <a href="/experience">Experience</a>
+            <a href="/experience">Experience</a>
         </li>
     </ul>
 </div>
@@ -50,7 +50,10 @@ layout: base
     </div>
     <div class="column">
         <div class="main-image">
-            <img src="{{ page.image }}" alt="">
+            <a href="{{ page.image }}">
+                <img src="{{ page.image }}" alt="">
+            </a>
         </div>
     </div>
+    <script src="/js/lightgallery.min.js"></script>
 </section>
