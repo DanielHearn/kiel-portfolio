@@ -19,6 +19,7 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
         width: calc(50% - 2em);
         .portfolio-content {
             background: $light-grey;
+            height: 100%;
             padding: $content-padding;
             -webkit-clip-path: $portfolio-content-clip-path;
             clip-path: $portfolio-content-clip-path;

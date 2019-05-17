@@ -23,16 +23,16 @@ layout: base
 <div id="overlay">
     <ul>
         <li>
-        <a href="/">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-        <a href="/portfolio">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-        <a href="/contact">Contact</a>
+            <a href="/contact">Contact</a>
         </li>
         <li>
-        <a href="/experience" class="active">Experience</a>
+            <a href="/experience" class="active">Experience</a>
         </li>
     </ul>
 </div>
@@ -50,11 +50,13 @@ layout: base
                 <li class="project">
                     <div class="project-logo">
                         {% if project.logo %}
-                            <img src="{{ project.logo }}">
+                        <img src="{{ project.logo }}">
                         {% endif %}
                     </div>
-                    <p class="project-title">{{ project.title }}</p>
-                    <p class="project-desc">{{ project.description }}</p>
+                    <div class="project-content">
+                        <p class="project-title">{{ project.title }}</p>
+                        <p class="project-desc">{{ project.description }}</p>
+                    </div>
                 </li>
                 {% endfor %}
             </ul>
