@@ -2,7 +2,7 @@ $front-spacing-large: 2em;
 $front-spacing-small: $front-spacing-large / 2;
 $front-spacing-xsmall: $front-spacing-small / 2;
 
-@supports (((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and ((-o-object-fit: cover) or (object-fit: cover))) {
+@supports ((top: calc(50% - 1em)) and ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%))) and ((-o-object-fit: cover) or (object-fit: cover))) {
     @media screen and (min-width: $mobile-break-width) and (min-height: 50em) {
         body .front-container {
             overflow: hidden;
@@ -139,7 +139,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             clip-path: polygon(45% 50%, 0 calc(2% + 2em), 0 calc(98% - 2em));
                         }
                         .section-name {
-                            top: 50%;
+                            top: calc(50% - 1em);
                             left: 10%;
                         }
                         &:hover{
@@ -168,7 +168,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             clip-path: polygon(55% 50%, 100% calc(98% - 2em), 100% calc(2% + 2em));
                         }
                         .section-name {
-                            top: 50%;
+                            top: calc(50% - 1em);
                             right: 10%;
                         }
                         &:hover{
