@@ -184,9 +184,6 @@
                 letter-spacing: 0.2em;
             }
         }
-        .subportfolio-grid {
-            padding: 0;
-        }
         .content .main {
             .column .column-content {
                 .portfolio-grid {
@@ -196,9 +193,16 @@
                     }
                 }
             }
-            .subportfolio-grid {
-                .subportfolio-item {
-                    width: 100%;
+            &.subportfolio {
+                .subportfolio-actions {
+                    padding-bottom: 1.5em;
+                    padding-left: 0;
+                }
+                .subportfolio-grid {
+                    padding: 0;
+                    .subportfolio-item {
+                        width: 100%;
+                    }
                 }
             }
             nav ul {

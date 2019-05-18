@@ -40,6 +40,9 @@ layout: base
     <span></span>
 </div>
 <section class="main subportfolio">
+    <div class="subportfolio-actions">
+        <a href="/portfolio" class="back-button link-large box-shadow">Back to categories</a>
+    </div>
     <div class="subportfolio-grid">
         {% for piece in page.portfolio_piece %}
         <a class="subportfolio-item box-shadow" data-is-youtube="{{ piece.is_youtube }}" {% if piece.youtube_link %}
