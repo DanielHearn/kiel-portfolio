@@ -119,8 +119,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         }
                         &:hover{
                             .section-name {
-                                //bottom: -12%;
-                                display: none;
+                                bottom: -12%;
+                                //display: none;
                             }
                             .about-box {
                                 display: block;
