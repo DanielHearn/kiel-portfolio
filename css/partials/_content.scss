@@ -13,11 +13,6 @@
     max-width: $max-width;
 }
 
-.box-shadow {
-    -webkit-box-shadow: $box-shadow;
-    box-shadow: $box-shadow;
-}
-
 .main {
     display: -webkit-box;
     display: -ms-flexbox;

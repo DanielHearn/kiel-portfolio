@@ -29,8 +29,13 @@
         .caption {
             display: none;
         }
-        &:hover {
-            box-shadow: none;
+        &.box-shadow {
+            -wekit-box-shadow: box-shadow($grey);
+                   box-shadow: box-shadow($grey);
+            &:hover {
+                -wekit-box-shadow: box-shadow($dark-grey);
+                    box-shadow: box-shadow($dark-grey);
+            }
         }
     }   
 }

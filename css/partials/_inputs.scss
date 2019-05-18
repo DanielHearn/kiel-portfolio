@@ -16,8 +16,12 @@ a {
     transition: -webkit-box-shadow $transition-time-slow ease-in-out;
     -o-transition: box-shadow $transition-time-slow ease-in-out;
     transition: box-shadow $transition-time-slow ease-in-out;
+    &.box-shadow {
+        -webkit-box-shadow:box-shadow($grey);
+                box-shadow: box-shadow($grey);
+    }
     &.box-shadow:hover  {
-        -webkit-box-shadow: none;
-                box-shadow: none;
+        -webkit-box-shadow: box-shadow($dark-grey);
+                box-shadow: box-shadow($dark-grey);
     }
 }

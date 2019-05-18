@@ -3,8 +3,9 @@
 @charset "utf-8";
 
 $dark: #1e2124;
-$grey: #2a2e30;
-$light-grey: #35383a;
+$grey: #23282b;
+$light-grey: #292f33;
+$dark-grey: #242627;
 $white: #efefef;
 $accent-dark: #c0a54d;
 $accent: #ddba46;
@@ -33,7 +34,9 @@ $max-width: 100em;
 
 $mobile-break-width: 60em;
 
-$box-shadow: (-$content-padding-small) (-$content-padding-small) 0px 0px $grey;
+@function box-shadow($colour) {  
+    @return (-$content-padding-small) (-$content-padding-small) 0px 0px $colour;
+} 
 
 @import 'partials/normalize';
 @import 'partials/animations';
