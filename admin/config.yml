@@ -85,6 +85,6 @@ collections:
     files:
       - label: "Site description"
         name: "description"
-        file: "description.yml"
+        file: "_data/description.yml"
         fields:
           - {label: Description, name: description, widget: string}
