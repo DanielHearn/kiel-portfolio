@@ -38,6 +38,11 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             width: 100%;
                         }
                     }
+                    .border-inner, .border-outer {
+                        -webkit-transition: background $transition-time-quick ease-in-out;
+                        -o-transition: background $transition-time-quick ease-in-out;
+                        transition: background $transition-time-quick ease-in-out;
+                    }
                     .border-outer {
                         position: absolute;
                         background: $grey;
@@ -196,6 +201,12 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         }
                         .section-name{
                             z-index: 20;
+                        }
+                        .border-outer {
+                            background: #2b3338;
+                        }
+                        .border-inner {
+                            background: #273035;
                         }
                     }
                 }
