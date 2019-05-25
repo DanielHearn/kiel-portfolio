@@ -47,6 +47,7 @@
         text-transform: uppercase;
         letter-spacing: $letter-spacing*8;
         padding: $content-padding;
+        margin-top: 3vh;
         h1 {
             font-size: $title-size;
             font-weight: $title-weight;
@@ -71,7 +72,7 @@
             flex-wrap: wrap;
         position: relative;
         width: 70%;
-        margin-top: 10vh;
+        margin-top: 8vh;
         .front-section {
             display: -webkit-box;
             display: -ms-flexbox;
