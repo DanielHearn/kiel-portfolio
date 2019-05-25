@@ -47,11 +47,11 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     }
                     .border-outer {
                         position: absolute;
-                        background: $grey;
+                        background: $light-grey;
                     }
                     .border-inner {
                         position: absolute;
-                        background: $light-grey;
+                        background: $grey;
                     }
                     .section-name {
                         position: absolute;
@@ -205,7 +205,7 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             z-index: 20;
                         }
                         .border-outer {
-                            background: #2b3338;
+                            background: #2e363c;
                         }
                         .border-inner {
                             background: #273035;
