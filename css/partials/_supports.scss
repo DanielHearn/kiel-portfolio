@@ -204,6 +204,18 @@ $front-spacing-xsmall: $front-spacing-small / 2;
     }
 }
 
+@supports (top: calc(50% - 17px)) {
+    body {
+        .lg .lg-actions {
+            .lg-prev, .lg-next {
+                &.lg-icon {
+                    top: calc(50% - 17px);
+                }
+            }
+        }
+    }
+}
+
 @supports (display: grid) {
     body {
         .content .main {
