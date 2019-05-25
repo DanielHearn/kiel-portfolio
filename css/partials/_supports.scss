@@ -117,6 +117,10 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             .about-box {
                                 display: flex;
                             }
+                            .img {
+                                -webkit-filter: contrast(70%) brightness(70%);
+                                filter: contrast(70%) brightness(70%);
+                            }
                         }
                     }
                     &.triangle-left {
