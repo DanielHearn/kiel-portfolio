@@ -23,6 +23,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     height: 100%;
                     width: 100%;
                     pointer-events: none;
+                    background: none;
+                    min-height: initial;
                     a {
                         pointer-events: auto;
                     }
