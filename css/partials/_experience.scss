@@ -16,9 +16,9 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        padding: $content-padding;
+        //padding: $content-padding 0;
         margin-bottom: $content-padding;
-        background: $light-grey;
+        //background: $light-grey;
         min-height: 6em;
         .project-logo {
             width: 10em;
@@ -27,16 +27,16 @@
             margin: 0;
         }
         .project-content {
+            padding-left: $content-padding;
             .project-title {
                 letter-spacing: $letter-spacing;
                 text-transform: uppercase;
-                padding: $content-padding-small $content-padding;
                 font-weight: 600;
             }
             .project-desc {
+                padding-top: $content-padding;
                 text-transform: uppercase;
-                color: rgba(255, 255, 255, 0.8);
-                padding: $content-padding-small $content-padding;
+                color: rgba(255, 255, 255, 0.7);
                 -webkit-box-flex: 1;
                     -ms-flex: 1;
                         flex: 1;

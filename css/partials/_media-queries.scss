@@ -94,11 +94,8 @@
                         -webkit-box-direction: normal;
                             -ms-flex-direction: column;
                                 flex-direction: column;
-                        .project-title {
-                            padding: $content-padding;
-                        }
-                        .project-desc {
-                            padding: $content-padding;
+                        .project-content {
+                            padding: $content-padding 0 0 0;
                         }
                         .project-logo {
                             width: 100%;
