@@ -11,6 +11,27 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                 -webkit-transition: width $transition-time-slow ease-in-out;
                 -o-transition: width $transition-time-slow ease-in-out;
                 transition: width $transition-time-slow ease-in-out;
+                &:hover {
+                    .section-name {
+                        z-index: 20;
+                    }
+                    .front-section.triangle-right .section-name {
+                        right: -22%;
+                        padding: 0 2em;
+                    }
+                    .front-section.triangle-left .section-name {
+                        left: -18%;
+                        padding: 0 2em;
+                    }
+                    .front-section.triangle-top .section-name {
+                        top: -12%;
+                        padding: 0 2em 3em 2em;
+                    }
+                    .front-section.triangle-bottom .section-name {
+                        bottom: -12%;
+                        padding: 3em 2em 0 2em;
+                    }
+                }
                 .front-section {
                     display: block;
                     -webkit-box-pack: initial;
@@ -84,12 +105,6 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name {
                             top: 15%;
                             width: 100%;
-                            pointer-events: none;
-                        }
-                        &:hover {
-                            .section-name {
-                                top: -12%;
-                            }
                         }
                     }
                     &.triangle-bottom {
@@ -114,19 +129,14 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name {
                             bottom: 15%;
                             width: 100%;
-                            pointer-events: none;
                         }
                         &:hover{
-                            .section-name {
-                                bottom: -12%;
-                                //display: none;
-                            }
                             .about-box {
                                 display: flex;
                             }
                             .img {
-                                -webkit-filter: contrast(80%) brightness(70%);
-                                filter: contrast(80%) brightness(70%);
+                                -webkit-filter: contrast(80%) brightness(60%);
+                                filter: contrast(80%) brightness(60%);
                             }
                         }
                     }
@@ -152,11 +162,6 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                         .section-name {
                             top: calc(50% - 1em);
                             left: 10%;
-                        }
-                        &:hover{
-                            .section-name {
-                                left: -18%;
-                            }
                         }
                     }
                     &.triangle-right {
@@ -186,9 +191,6 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             .img {
                                 right: 0;
                             }
-                            .section-name {
-                                right: -22%;
-                            }
                         }
                     }
                     &:hover {
@@ -202,7 +204,20 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                                     clip-path: none;
                         }
                         .section-name{
-                            z-index: 20;
+                            p {
+                                backface-visibility: hidden;
+                                text-decoration: none;
+                                position: relative;
+                                display: inline-block;
+                                &:before {
+                                    content: "";
+                                    position: absolute;
+                                    width: 100%;
+                                    bottom: -8px;
+                                    margin-left: -2px;
+                                    border-bottom: 0.3em solid white;
+                                }
+                            }
                         }
                         .border-outer {
                             background: #2e363c;
