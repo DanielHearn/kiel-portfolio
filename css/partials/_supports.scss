@@ -18,18 +18,22 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                     .front-section.triangle-right .section-name {
                         right: -22%;
                         padding: 0 2em;
+                        height: 100%;
+                        top: initial;
                     }
                     .front-section.triangle-left .section-name {
                         left: -18%;
                         padding: 0 2em;
+                        height: 100%;
+                        top: initial;
                     }
                     .front-section.triangle-top .section-name {
-                        top: -12%;
-                        padding: 0 2em 3em 2em;
+                        top: -22%;
+                        padding: 3em;
                     }
                     .front-section.triangle-bottom .section-name {
-                        bottom: -12%;
-                        padding: 3em 2em 0 2em;
+                        bottom: -22%;
+                        padding: 3em;
                     }
                 }
                 .front-section {
