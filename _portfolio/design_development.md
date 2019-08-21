@@ -37,8 +37,8 @@ portfolio_piece:
   - title: Dwarven Skyship Developments
     image: /images/uploads/dwarven-1.jpg
     is_youtube: false
-  - title: 'Soldier and Death: Hero Ship Iterations'
-    image: /images/uploads/Talovka_3.jpg
+  - title: 'Soldier and Death: Hero Ship Developments'
+    image: /images/uploads/talovka-4.jpg
     is_youtube: false
   - title: 'Soldier and Death: Devil Ship'
     image: /images/uploads/devil-one.jpg
