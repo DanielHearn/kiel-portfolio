@@ -10,7 +10,7 @@ about_text: >-
   and full illustrations. I am open to working on moving image, interactive
   media or print projects.
 experience_image: /images/uploads/dropship-3.jpg
-portfolio_image: /images/uploads/58-endgame-armour-final.jpg
+portfolio_image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
 contact_image: /images/uploads/ship-battle-2.jpg
 ---
 
