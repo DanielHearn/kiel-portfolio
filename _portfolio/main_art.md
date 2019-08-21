@@ -22,8 +22,8 @@ portfolio_piece:
   - title: Otherworlder Soldier
     image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
     is_youtube: false
-  - title: 'Soldier and Death: Hero Ship'
-    image: /images/uploads/talovka-10.jpg
+  - title: User Interface (Pause Menu)
+    image: /images/uploads/player-stats-v3.jpg
     is_youtube: false
   - title: 'Soldier and Death: Poster'
     image: /images/uploads/Poster.jpg
