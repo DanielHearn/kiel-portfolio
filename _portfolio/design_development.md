@@ -34,8 +34,8 @@ portfolio_piece:
   - title: 'Neo-Racer: Vehicle Colour Iterations'
     image: /images/uploads/4-col.jpg
     is_youtube: false
-  - title: Insomniac-Inspired Character Design
-    image: /images/uploads/9-armour-des-3-choose-a.jpg
+  - title: Dwarven Skyship Developments
+    image: /images/uploads/dwarven-1.jpg
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Iterations'
     image: /images/uploads/Talovka_3.jpg
