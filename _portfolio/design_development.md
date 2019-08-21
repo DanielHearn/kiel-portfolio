@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Design Development
-image: /images/uploads/58-endgame-armour-final.jpg
+image: /images/uploads/palace.jpg
 order: 2
 portfolio_piece:
   - title: 'Riftblade: The Riftblade'
