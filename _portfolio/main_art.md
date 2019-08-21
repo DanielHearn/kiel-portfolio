@@ -16,8 +16,8 @@ portfolio_piece:
   - title: Insomniac Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
     is_youtube: false
-  - title: Space Battle Climax
-    image: /images/uploads/10-final-image-4-with-logo.jpg
+  - title: Hittite Biker
+    image: /images/uploads/daccar-sunset-b.jpg
     is_youtube: false
   - title: Otherworlder Soldier
     image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
