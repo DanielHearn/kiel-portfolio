@@ -2,21 +2,29 @@
     display: flex;
     flex-direction: column;
     .subportfolio-actions {
-        padding: $content-padding $content-padding $content-padding $content-padding;
+        padding: $content-padding/2 $content-padding 0 $content-padding;
     }    
     .back-button {
         text-transform: uppercase;
-        letter-spacing: 0.05em;
         margin-left: 0.5em;
         padding: 0.5em 1em;
     }
+}
+
+.subportfolio-title {
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+    font-size: $subtitle-size;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing;
 }
 
 .subportfolio-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: $content-padding;
+    padding: $content-padding/2 $content-padding;
     width: 100%;
     .subportfolio-item {
         overflow: hidden;
@@ -47,8 +55,8 @@
             -wekit-box-shadow: box-shadow($grey);
                    box-shadow: box-shadow($grey);
             &:hover {
-                -wekit-box-shadow: box-shadow($dark-grey);
-                    box-shadow: box-shadow($dark-grey);
+                -wekit-box-shadow: box-shadow(#2b353a);
+                    box-shadow: box-shadow(#2b353a);
             }
         }
     }   

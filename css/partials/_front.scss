@@ -117,13 +117,13 @@
                 height: 100%;
                 p {
                     font-size: $heading-size;
-                    font-weight: 600;
+                    font-weight: 500;
                     letter-spacing: $letter-spacing*2;
                 }
             }
             img {
-                -webkit-filter: contrast(80%) brightness(80%);
-                        filter: contrast(80%) brightness(80%);
+                -webkit-filter: contrast(90%) brightness(80%);
+                        filter: contrast(90%) brightness(80%);
                 -webkit-transition: -webkit-filter $transition-time-slow ease-in-out;
                 transition: -webkit-filter $transition-time-slow ease-in-out;
                 -o-transition: filter $transition-time-slow ease-in-out;
@@ -143,6 +143,7 @@
             .about-content {
                 width: 75%;
                 padding: 1em;
+                font-weight: 400;
             }
         }
     }

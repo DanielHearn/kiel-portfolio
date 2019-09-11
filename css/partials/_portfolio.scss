@@ -27,6 +27,10 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
             padding: $content-padding;
             -webkit-clip-path: $portfolio-content-clip-path;
             clip-path: $portfolio-content-clip-path;
+            -webkit-transition: background $transition-time-slow ease-in-out;
+            transition: background $transition-time-slow ease-in-out;
+            -o-transition: background $transition-time-slow ease-in-out;
+            transition: background $transition-time-slow ease-in-out;
             .portfolio-image {
                 height: 25vh;
                 background-size: cover;
@@ -45,7 +49,10 @@ $portfolio-image-clip-path: polygon(0% $content-padding, $content-padding 0%, 10
             }
         }
         &:hover {
-            background: $dark-grey;
+            background: #2b353a;
+            .portfolio-content {
+                background: #3c454b;
+            }
         }
     }
 }

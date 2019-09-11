@@ -3,28 +3,28 @@
 @charset "utf-8";
 
 $dark: #1e2124;
-$grey: #23282b;
-$light-grey: #262d31;
+$grey: #292e31;
+$light-grey: #2c3438;
 $dark-grey: #252a2d;
 $white: #efefef;
-$accent-dark: #c0a54d;
-$accent: #ddba46;
+$accent-dark: #d3b03e;
+$accent: #f0c434;
 
 $title-size: 1.8em;
 $title-weight: 700;
 $subtitle-size: 1.5em;
-$subtitle-weight: 500;
+$subtitle-weight: 400;
 $heading-size: 1.4em;
-$heading-weight: 600;
+$heading-weight: 500;
 $subheading-size: 1.25em;
 $subheading-weight: 500;
-$p-size: 1em;
+$p-size: 1.1em;
 $p-weight: 400;
 $nav-link-size: 1.1em;
 
-$letter-spacing: 0.1em;
+$letter-spacing: 0.075em;
 $transition-time-quick: 0.1s;
-$transition-time-slow: 0.2s;
+$transition-time-slow: 0.15s;
 
 $content-padding: 1em;
 $content-padding-large: $content-padding*2;
@@ -59,7 +59,7 @@ $mobile-break-width: 60em;
 }
 
 body, input, button {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'rubik', sans-serif;
 }
 
 body {

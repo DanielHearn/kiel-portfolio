@@ -139,8 +139,8 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                                 display: flex;
                             }
                             .img {
-                                -webkit-filter: contrast(80%) brightness(60%);
-                                filter: contrast(80%) brightness(60%);
+                                -webkit-filter: contrast(80%) brightness(70%);
+                                filter: contrast(80%) brightness(70%);
                             }
                         }
                     }
@@ -224,10 +224,10 @@ $front-spacing-xsmall: $front-spacing-small / 2;
                             }
                         }
                         .border-outer {
-                            background: #2e363c;
+                            background: #3c454b;
                         }
                         .border-inner {
-                            background: #273035;
+                            background: #2b353a;
                         }
                     }
                 }

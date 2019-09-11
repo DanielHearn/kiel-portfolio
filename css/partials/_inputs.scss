@@ -1,27 +1,42 @@
 a {
     text-decoration: none;
     color: $white;
+    font-weight: 400;
     &:visited {
         color: $white;
+    }
+}
+
+.contact-content {
+    a {
+        font-weight: 500;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
 .link-large {
     text-align: center;
     color: $white;
+    letter-spacing: $letter-spacing;
     text-transform: uppercase;
+    font-size: $p-size;
     background: $light-grey;
     padding: $content-padding $content-padding-large;
-    -webkit-transition: -webkit-box-shadow $transition-time-slow ease-in-out;
-    transition: -webkit-box-shadow $transition-time-slow ease-in-out;
-    -o-transition: box-shadow $transition-time-slow ease-in-out;
-    transition: box-shadow $transition-time-slow ease-in-out;
+    -webkit-transition: -webkit-box-shadow $transition-time-slow ease-in-out, background $transition-time-slow ease-in-out;
+    transition: -webkit-box-shadow $transition-time-slow ease-in-out, background $transition-time-slow ease-in-out;
+    -o-transition: box-shadow $transition-time-slow ease-in-out, background $transition-time-slow ease-in-out;
+    transition: box-shadow $transition-time-slow ease-in-out, background $transition-time-slow ease-in-out;
     &.box-shadow {
         -webkit-box-shadow:box-shadow($grey);
                 box-shadow: box-shadow($grey);
     }
+    &:hover {
+        background: #3c454b;
+    }
     &.box-shadow:hover  {
-        -webkit-box-shadow: box-shadow($dark-grey);
-                box-shadow: box-shadow($dark-grey);
+        -webkit-box-shadow: box-shadow(#2b353a);
+                box-shadow: box-shadow(#2b353a);
     }
 }
