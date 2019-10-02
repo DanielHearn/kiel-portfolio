@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Home
-page_title: Kiel Frampton
+page_title: f
 heading: Concept Art
 about_image: /images/uploads/daccar-sunset-b.jpg
 about_text: >-
