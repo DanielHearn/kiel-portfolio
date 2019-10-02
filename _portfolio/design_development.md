@@ -22,11 +22,11 @@ portfolio_piece:
   - title: 'Rfitblade: Dropship Cross-Section'
     image: /images/uploads/dropship-4.jpg
     is_youtube: false
+  - title: Interior Engine Room Design
+    image: /images/uploads/deuterium-main-engineering.jpg
+    is_youtube: false
   - title: 'Riftblade: Otherworlder Weapons'
     image: /images/uploads/otherworlder-guns.jpg
-    is_youtube: false
-  - title: 'Soldier and Death: Weapon Developments'
-    image: /images/uploads/weapons-2b.png
     is_youtube: false
   - title: 'Neo-Racer: Composition Sketches'
     image: /images/uploads/2.comp2ab.jpg
@@ -39,9 +39,6 @@ portfolio_piece:
     is_youtube: false
   - title: 'Soldier and Death: Hero Ship Developments'
     image: /images/uploads/talovka-4.jpg
-    is_youtube: false
-  - title: Interior Engine Room Design
-    image: /images/uploads/deuterium-main-engineering.jpg
     is_youtube: false
   - title: 'Riftblade: Fantasy Soldier'
     image: /images/uploads/barvish-soldiersa.jpg
