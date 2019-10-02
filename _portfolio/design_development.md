@@ -40,8 +40,8 @@ portfolio_piece:
   - title: 'Soldier and Death: Hero Ship Developments'
     image: /images/uploads/talovka-4.jpg
     is_youtube: false
-  - title: 'Soldier and Death: Devil Ship'
-    image: /images/uploads/devil-one.jpg
+  - title: Interior Engine Room Design
+    image: /images/uploads/deuterium-main-engineering.jpg
     is_youtube: false
   - title: 'Riftblade: Fantasy Soldier'
     image: /images/uploads/barvish-soldiersa.jpg
