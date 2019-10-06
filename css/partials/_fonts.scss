@@ -16,6 +16,7 @@
   src: local('Rubik Medium'), local('Rubik-Medium'),
        url('../fonts/rubik-v9-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/rubik-v9-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/rubik-v9-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 /* rubik-700 - latin */
 @font-face {
