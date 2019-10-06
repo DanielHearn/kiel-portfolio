@@ -52,6 +52,7 @@ $mobile-break-width: 60em;
 @import 'partials/subportfolio';
 @import 'partials/overlay';
 @import 'partials/content';
+@import 'partials/fonts';
 
 * {
     -webkit-box-sizing: border-box;
@@ -60,6 +61,7 @@ $mobile-break-width: 60em;
 
 body, input, button {
     font-family: 'Rubik', sans-serif;
+    font-display: swap;
 }
 
 body {
