@@ -34,6 +34,9 @@ portfolio_piece:
   - title: 'Neo-Racer: Vehicle Colour Iterations'
     image: /images/uploads/4-col.jpg
     is_youtube: false
+  - title: 'Neo-Racer: Vehicle Orthographic'
+    image: /images/uploads/5-turnaround-d-l.jpg
+    is_youtube: false
   - title: Dwarven Skyship Developments
     image: /images/uploads/dwarven-1.jpg
     is_youtube: false
