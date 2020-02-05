@@ -4,6 +4,9 @@ title: Illustrations
 image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
 order: 1
 portfolio_piece:
+  - title: Underworld
+    image: /images/uploads/Hella.png
+    is_youtube: false
   - title: Arrival
     image: /images/uploads/arrival-1.jpg
     is_youtube: false
