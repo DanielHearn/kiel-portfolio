@@ -12,10 +12,13 @@
                         position: fixed;
                         width: 48%;
                         img {
-                            max-width: initial;
-                            height: 100%;
-                            z-index: 5;
+                            //max-width: initial;
                             //position: fixed;
+                            z-index: 5;
+                            object-fit: cover;
+                            object-position: left;
+                            height: 100%;
+                            width: 100%;
                         }
                     }
                 }
