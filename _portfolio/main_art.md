@@ -4,6 +4,9 @@ title: Illustrations
 image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
 order: 1
 portfolio_piece:
+  - is_youtube: false
+    image: /images/uploads/first-contact-l.png
+    title: First Contact
   - title: Underworld
     image: /images/uploads/Hellb.png
     is_youtube: false
@@ -28,11 +31,10 @@ portfolio_piece:
   - title: User Interface (Pause Menu)
     image: /images/uploads/player-stats-v3.jpg
     is_youtube: false
-  - title: 'Soldier and Death: Poster'
+  - title: "Soldier and Death: Poster"
     image: /images/uploads/Poster.jpg
     is_youtube: false
   - title: Neo Racer Vehicle
     image: /images/uploads/final-vehicle-2-l.jpg
     is_youtube: false
 ---
-
