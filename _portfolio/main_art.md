@@ -37,4 +37,7 @@ portfolio_piece:
   - title: Neo Racer Vehicle
     image: /images/uploads/final-vehicle-2-l.jpg
     is_youtube: false
+  - is_youtube: false
+    title: Shard
+    image: /images/uploads/big1-shard1.png
 ---
