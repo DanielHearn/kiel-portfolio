@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact Me
-image: /images/uploads/derelict-signs.jpg
+image: /images/uploads/the-adventure-begins3a.png
 ---
 If you would like to get in touch, send me an email: 
 
