@@ -5,6 +5,9 @@ image: /images/uploads/37sci-fi-soldier-close-up-b.jpg
 order: 1
 portfolio_piece:
   - is_youtube: false
+    title: Albatross
+    image: /images/uploads/albatross.png
+  - is_youtube: false
     image: /images/uploads/first-contact-l.png
     title: First Contact
   - title: Underworld
@@ -19,8 +22,14 @@ portfolio_piece:
   - title: Boss Battle
     image: /images/uploads/final-battle-1a.jpg
     is_youtube: false
+  - is_youtube: false
+    title: Doom
+    image: /images/uploads/doom-a.png
   - title: Insomniac Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
+    is_youtube: false
+  - title: Mass Effect Poster
+    image: /images/uploads/mass-effect-poster-l.png
     is_youtube: false
   - title: Hittite Biker
     image: /images/uploads/daccar-sunset-b.jpg
@@ -34,10 +43,10 @@ portfolio_piece:
   - title: "Soldier and Death: Poster"
     image: /images/uploads/Poster.jpg
     is_youtube: false
-  - title: Neo Racer Vehicle
-    image: /images/uploads/final-vehicle-2-l.jpg
-    is_youtube: false
   - is_youtube: false
     title: Shard
     image: /images/uploads/big1-shard1.png
+  - is_youtube: false
+    title: Outer Wilds
+    image: /images/uploads/outer-wilds.png
 ---
