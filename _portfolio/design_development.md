@@ -1,9 +1,12 @@
 ---
 layout: portfolio-sub
 title: Design Development
-image: /images/uploads/palace.jpg
+image: /images/uploads/aetherborn-3-c.png
 order: 2
 portfolio_piece:
+  - is_youtube: false
+    title: Aetherborn Iterations
+    image: /images/uploads/aetherborn-2a.png
   - title: "Light Age: Prop Orthographic"
     image: /images/uploads/prop3-3.png
     is_youtube: false
@@ -37,6 +40,12 @@ portfolio_piece:
   - title: "Argynvostholt: Columns"
     image: /images/uploads/columns-2.png
     is_youtube: false
+  - is_youtube: false
+    title: "Argynvostholt: Busts"
+    image: /images/uploads/bust-gold_concept.png
+  - is_youtube: false
+    title: "Argynvostholt: Doors"
+    image: /images/uploads/doors-general_concept.png
   - title: "Neo-Racer: Vehicle Orthographic"
     image: /images/uploads/5-turnaround-d-l.jpg
     is_youtube: false
