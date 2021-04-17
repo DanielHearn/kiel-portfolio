@@ -10,6 +10,12 @@ portfolio_piece:
   - is_youtube: false
     image: /images/uploads/first-contact-l.png
     title: First Contact
+  - title: Mass Effect Poster
+    image: /images/uploads/mass-effect-poster-l.png
+    is_youtube: false
+  - is_youtube: false
+    title: Doom
+    image: /images/uploads/doom-a.png
   - title: Underworld
     image: /images/uploads/Hellb.png
     is_youtube: false
@@ -22,14 +28,8 @@ portfolio_piece:
   - title: Boss Battle
     image: /images/uploads/final-battle-1a.jpg
     is_youtube: false
-  - is_youtube: false
-    title: Doom
-    image: /images/uploads/doom-a.png
   - title: Insomniac Character Promo Piece
     image: /images/uploads/14-final-i-image-b.jpg
-    is_youtube: false
-  - title: Mass Effect Poster
-    image: /images/uploads/mass-effect-poster-l.png
     is_youtube: false
   - title: Hittite Biker
     image: /images/uploads/daccar-sunset-b.jpg
