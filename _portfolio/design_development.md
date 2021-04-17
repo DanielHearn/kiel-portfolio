@@ -4,6 +4,9 @@ title: Design Development
 image: /images/uploads/palace.jpg
 order: 2
 portfolio_piece:
+  - title: "Light Age: Prop Orthographic"
+    image: /images/uploads/prop3-3.png
+    is_youtube: false
   - title: "Riftblade: The Riftblade"
     image: /images/uploads/riftblade-1.jpg
     is_youtube: false
@@ -39,9 +42,6 @@ portfolio_piece:
     is_youtube: false
   - title: Dwarven Skyship Developments
     image: /images/uploads/dwarven-1.jpg
-    is_youtube: false
-  - title: "Soldier and Death: Hero Ship Developments"
-    image: /images/uploads/talovka-4.jpg
     is_youtube: false
   - title: "Riftblade: Fantasy Soldier"
     image: /images/uploads/barvish-soldiersa.jpg
