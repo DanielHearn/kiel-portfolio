@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Design Development
-image: /images/uploads/aetherborn-3-c.png
+image: /images/uploads/prop3-2.png
 order: 2
 portfolio_piece:
   - is_youtube: false
