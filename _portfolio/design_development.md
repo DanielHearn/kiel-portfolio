@@ -40,6 +40,9 @@ portfolio_piece:
   - title: "Rfitblade: Dropship Cross-Section"
     image: /images/uploads/dropship-4.jpg
     is_youtube: false
+  - is_youtube: false
+    title: Interior Spaceship Corridor Design
+    image: /images/uploads/deuterium-corridor.jpg
   - title: Interior Engine Room Design
     image: /images/uploads/deuterium-main-engineering.jpg
     is_youtube: false
