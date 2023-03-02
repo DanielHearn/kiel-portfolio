@@ -3,6 +3,9 @@ layout: experience
 title: Experience
 image: /images/uploads/doom-a.png
 projects:
+  - title: Author (Self Published)
+    description: No Shoulder for God to Cry On (2022)
+    logo: /images/uploads/book-coverc.png
   - title: Self-Employed
     description: Commission work (2019+)
     logo: /images/uploads/big1-shard1.png
@@ -12,7 +15,4 @@ projects:
   - title: Framestore
     description: Work Experience (2015)
     logo: /images/uploads/i3dsgsrm_400x400.jpg
-  - title: Author (Self Published)
-    description: No Shoulder for God to Cry On (2022)
-    logo: /images/uploads/book-coverc.png
 ---
