@@ -41,7 +41,7 @@ portfolio_piece:
     image: /images/uploads/player-stats-v3.jpg
     is_youtube: false
   - title: "Soldier and Death: Poster"
-    image: /images/uploads/Poster.jpg
+    image: /images/uploads/poster-.png
     is_youtube: false
   - is_youtube: false
     title: Shard
@@ -49,4 +49,7 @@ portfolio_piece:
   - is_youtube: false
     title: Outer Wilds
     image: /images/uploads/outer-wilds.png
+  - is_youtube: false
+    title: Matilda Tanks
+    image: /images/uploads/dad-tank-c.png
 ---
