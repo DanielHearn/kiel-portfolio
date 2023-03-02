@@ -13,6 +13,6 @@ projects:
     description: Work Experience (2015)
     logo: /images/uploads/i3dsgsrm_400x400.jpg
   - title: Author (Self Published)
-    description: No Shoulder for God to Cry On
+    description: No Shoulder for God to Cry On (2022)
     logo: /images/uploads/book-coverc.png
 ---
