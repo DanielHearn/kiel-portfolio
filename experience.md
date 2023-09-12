@@ -4,7 +4,7 @@ title: Experience
 image: /images/uploads/doom-a.png
 projects:
   - title: Author (Self Published)
-    description: No Shoulder for God to Cry On (2022)
+    description: No Shoulder for God to Cry On (2022), Anywhere for God to Hide (2023)
     logo: /images/uploads/book-coverc.png
   - title: Self-Employed
     description: Commission work (2019+)
