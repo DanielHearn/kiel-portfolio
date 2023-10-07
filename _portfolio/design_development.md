@@ -64,4 +64,10 @@ portfolio_piece:
   - title: "Riftblade: Sci-fi Soldier"
     image: /images/uploads/otherworlder-soldiersa.jpg
     is_youtube: false
+  - is_youtube: false
+    image: /images/uploads/3-ds.png
+    title: "Dragon's Rise: Helmet Orthographic"
+  - is_youtube: false
+    title: "Dragon's Rise: Gateway"
+    image: /images/uploads/1-final.png
 ---
