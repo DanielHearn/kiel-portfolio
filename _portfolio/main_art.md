@@ -52,4 +52,7 @@ portfolio_piece:
   - is_youtube: false
     title: Matilda Tanks
     image: /images/uploads/dad-tank-c.png
+  - is_youtube: false
+    title: Surface
+    image: /images/uploads/k-picf-devastated-l.png
 ---
