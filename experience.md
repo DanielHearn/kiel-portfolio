@@ -1,6 +1,6 @@
 ---
 layout: experience
-title: Experience
+title: Career
 image: /images/uploads/doom-a.png
 projects:
   - title: Author (Self Published)
