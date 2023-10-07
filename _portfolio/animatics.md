@@ -16,4 +16,8 @@ portfolio_piece:
     image: /images/uploads/swccloseup.jpg
     is_youtube: true
     youtube_link: https://www.youtube.com/watch?v=la9EIJURbAQ&feature=youtu.be
+  - is_youtube: true
+    youtube_link: https://www.youtube.com/watch?v=AMXNqNRGZEE
+    title: "Anywhere for God to Hide: Teaser Animatic"
+    image: /images/uploads/book-2b-cover.png
 ---
