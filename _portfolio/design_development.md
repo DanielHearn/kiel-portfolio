@@ -70,4 +70,7 @@ portfolio_piece:
   - is_youtube: false
     title: "Dragon's Rise: Gateway"
     image: /images/uploads/1-final.png
+  - is_youtube: false
+    title: "Soldier and Death: Microcannon"
+    image: /images/uploads/soldier-gun-2.png
 ---
