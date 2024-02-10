@@ -55,4 +55,7 @@ portfolio_piece:
   - is_youtube: false
     title: Surface
     image: /images/uploads/k-picf-devastated-l.png
+  - is_youtube: false
+    title: Scadan Character
+    image: /images/uploads/battle-royale-scadan.png
 ---
