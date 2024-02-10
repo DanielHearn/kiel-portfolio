@@ -3,7 +3,7 @@ layout: index
 title: Home
 page_title: Kiel Frampton
 heading: Concept Art
-about_image: /images/uploads/daccar-sunset-b.jpg
+about_image: /images/uploads/book-2-hardcover-poster-a.png
 about_text: >-
   An artist and storyteller, passionate about narrative products, including
   video games, tabletop games and film. 
