@@ -5,6 +5,9 @@ image: /images/uploads/prop3-2.png
 order: 2
 portfolio_piece:
   - is_youtube: false
+    title: "Soldier and Death: Microcannon"
+    image: /images/uploads/soldier-gun-2.png
+  - is_youtube: false
     title: Aetherborn Iterations
     image: /images/uploads/aetherborn-2a.png
   - is_youtube: false
@@ -19,6 +22,12 @@ portfolio_piece:
   - is_youtube: false
     title: "Argynvostholt: Busts"
     image: /images/uploads/bust-gold_concept.png
+  - is_youtube: false
+    title: "Argynvostholt: Balustrade"
+    image: /images/uploads/railings.png
+  - is_youtube: false
+    title: "Argynvostholt: Chandelier"
+    image: /images/uploads/chandelier.png
   - is_youtube: false
     title: "Argynvostholt: Doors"
     image: /images/uploads/doors-general_concept.png
@@ -70,7 +79,4 @@ portfolio_piece:
   - is_youtube: false
     title: "Dragon's Rise: Gateway"
     image: /images/uploads/1-final.png
-  - is_youtube: false
-    title: "Soldier and Death: Microcannon"
-    image: /images/uploads/soldier-gun-2.png
 ---
