@@ -79,4 +79,10 @@ portfolio_piece:
   - is_youtube: false
     title: "Dragon's Rise: Gateway"
     image: /images/uploads/1-final.png
+  - is_youtube: false
+    title: "Soldier and Death: Signage"
+    image: /images/uploads/kiel-frampton-derelict-signs.jpg
+  - is_youtube: false
+    title: "Argynvostholt: Logos"
+    image: /images/uploads/logo-final-together.png
 ---
