@@ -3,10 +3,10 @@ layout: experience
 title: Experience
 image: /images/uploads/doom-a.png
 projects:
-  - title: Author (Self Published)
+  - title: Author (Self-Published)
     description: No Shoulder for God to Cry On (2022), Anywhere for God to Hide (2023)
     logo: /images/uploads/for-website-4.jpg
-  - title: Self-Employed
+  - title: Artist (Self-Employed)
     description: Commission work (2019+)
     logo: /images/uploads/for-website-1.jpg
   - description: BA (Hons) in Concept Art (2016-2019)
