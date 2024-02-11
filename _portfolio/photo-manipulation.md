@@ -5,7 +5,7 @@ image: /images/uploads/my-stuff.jpg
 order: 3
 portfolio_piece:
   - title: No Shoulder for God to Cry On
-    image: /images/uploads/book1.jpg
+    image: /images/uploads/book1a.jpg
     is_youtube: false
   - is_youtube: false
     title: Anywhere for God to Hide
