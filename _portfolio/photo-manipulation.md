@@ -1,6 +1,6 @@
 ---
 layout: portfolio-sub
-title: Books
+title: Books (Available Now on Amazon)
 image: /images/uploads/my-stuff.jpg
 order: 3
 portfolio_piece:
