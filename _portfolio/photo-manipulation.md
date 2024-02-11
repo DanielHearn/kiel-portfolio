@@ -1,6 +1,6 @@
 ---
 layout: portfolio-sub
-title: Graphic Design and Photo Manipulation
+title: Books
 image: /images/uploads/L2_Fort_Desolation.jpg
 order: 3
 portfolio_piece:
