@@ -1,7 +1,7 @@
 ---
 layout: portfolio-sub
 title: Books
-image: /images/uploads/L2_Fort_Desolation.jpg
+image: /images/uploads/my-stuffa.png
 order: 3
 portfolio_piece:
   - title: "Photobash- Fort Desolation "
