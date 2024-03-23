@@ -2,7 +2,7 @@
 layout: index
 title: Home
 page_title: Kiel Frampton
-heading: Concept Art
+heading: Artist and Author
 about_image: /images/uploads/daccar-sunset-b.jpg
 about_text: >-
   An artist and storyteller, passionate about narrative products, including
