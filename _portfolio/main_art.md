@@ -45,7 +45,7 @@ portfolio_piece:
     is_youtube: false
   - is_youtube: false
     title: Shard
-    image: /images/uploads/big1-shard1.png
+    image: /images/uploads/shard3.png
   - is_youtube: false
     title: Outer Wilds
     image: /images/uploads/outer-wilds.png
