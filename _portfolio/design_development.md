@@ -85,4 +85,7 @@ portfolio_piece:
   - is_youtube: false
     title: "Argynvostholt: Logos"
     image: /images/uploads/logo-final-together.png
+  - is_youtube: false
+    title: SMC Ship Lineup
+    image: /images/uploads/smc-ship-lineup-.png
 ---
