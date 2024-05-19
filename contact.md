@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact Me
-image: /images/uploads/the-adventure-begins3a.png
+image: /images/uploads/the-adventure-begins-for-website.png
 ---
 Hi, if you would like to get in touch, please send me an email:
 
