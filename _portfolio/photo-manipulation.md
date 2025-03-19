@@ -13,4 +13,7 @@ portfolio_piece:
   - is_youtube: false
     title: The History of the SMC Universe
     image: /images/uploads/lore-book.jpg
+  - is_youtube: false
+    title: Wormhole Jump (Sci-Fi RPG)
+    image: /images/uploads/wormhole-jump-front-cover.jpg
 ---
