@@ -58,4 +58,7 @@ portfolio_piece:
   - is_youtube: false
     title: Scadan Character
     image: /images/uploads/battle-royale-scadan.png
+  - is_youtube: false
+    image: /images/uploads/rimworld-.png
+    title: Rimworld Background
 ---
